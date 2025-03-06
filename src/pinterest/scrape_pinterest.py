@@ -69,13 +69,13 @@ def get_images_from_pinterest(query, num_images=10):
     image_urls = list(set(image_urls))[:num_images]
 
     # Ensure "outfits" directory exists
-    os.makedirs("data/outfits", exist_ok=True)
+    os.makedirs("../../data/outfits", exist_ok=True)
 
     # Download and save images in "outfits" directory
     downloaded_images = []
     for idx, img_url in enumerate(image_urls):
         image_data = requests.get(img_url).content
-        image_name = os.path.join("data/outfits", f"{query}_{idx + 1}.jpg")
+        image_name = os.path.join("../../data/outfits", f"{query}_{idx + 1}.jpg")
 
         # Save the image
         with open(image_name, "wb") as f:
