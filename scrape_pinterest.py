@@ -44,7 +44,7 @@ def get_images_from_pinterest(query, num_images=10):
     soup = BeautifulSoup(driver.page_source, "html.parser")
 
     # Extract image URLs from <img> tags
-    # Try to extract images using the data-src attribute
+    # Try to extract images using the outfits-src attribute
     image_elements = soup.find_all("img", {"src": True})
 
     # If no images found, try looking for srcset as a fallback
@@ -68,14 +68,14 @@ def get_images_from_pinterest(query, num_images=10):
     # Remove duplicates and limit to num_images
     image_urls = list(set(image_urls))[:num_images]
 
-    # Ensure "data" directory exists
-    os.makedirs("data", exist_ok=True)
+    # Ensure "outfits" directory exists
+    os.makedirs("data/outfits", exist_ok=True)
 
-    # Download and save images in "data" directory
+    # Download and save images in "outfits" directory
     downloaded_images = []
     for idx, img_url in enumerate(image_urls):
         image_data = requests.get(img_url).content
-        image_name = os.path.join("data", f"{query}_{idx + 1}.jpg")
+        image_name = os.path.join("data/outfits", f"{query}_{idx + 1}.jpg")
 
         # Save the image
         with open(image_name, "wb") as f:
