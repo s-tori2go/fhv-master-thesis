@@ -1,0 +1,34 @@
+\chapter{Introduction}
+
+The integration of \ac{AI} into the fashion industry has opened new doors for innovation and has transformed key areas such as design, production, retail and marketing. Within this rapidly evolving landscape, one particularly interesting application is personalized styling. Specifically, the use of \acs{AI} to evaluate (and recommend) fashion outfits tailored to individual preferences. This thesis investigates the application of \ac{DL} techniques to assess the visual quality of fashion ensembles, with the central research question being:
+
+\begin{displayquote}
+\textbf{How can existing \acs{DL} models be used to give a score representing evaluation of visual compatibility of a fashion outfit based on images of individuals wearing clothes?}
+\end{displayquote}
+
+This introductory chapter describes the initial situation and defines objectives and expected outcomes. The result of this master's thesis is a computational solution capable of analyzing images of individuals wearing outfits and assigning a score that reflects the overall aesthetic appeal and visual coherence of the look.
+
+\section{Motivation}
+
+The motivation for this thesis lies in the potential of \acs{AI} to address gaps in personalized fashion. Current \acs{AI}-driven fashion applications often focus on generic outfit recommendations, neglecting the nuanced interplay between visual aesthetics, personal preferences and contextual factors. There exists an opportunity to develop systems that, on the one hand, understand general styling guidelines and recognize patterns in fashion styles and, on the other hand, adapt to individual tastes and situational demands. By developing a robust \acs{AI}-powered outfit evaluation system, the groundwork is laid for creating a personalized \acs{AI}-powered stylist application. Such an application could not only assess outfits but also provide tailored recommendations that align with individual preferences and contextual requirements. This thesis represents a foundational step toward understanding how \acs{AI} can be leveraged to enhance user experiences in the fashion domain, satisfying the growing demand for personalized fashion solutions in our digital age.
+
+\section{Objectives and Problem Statement}
+
+This thesis addresses four significant gaps in the field:
+
+\begin{enumerate}
+\item There is limited exploration of \acs{AI} models that are specifically designed for outfit evaluation and consider all person's individual features. \cite[vgl.]{chen_survey_2023}, \cite[vgl.]{deldjoo_review_2022}
+\item Existing methods evaluate the compatibility between only two items (e.g. top and bottom) for a specific user. However, real-world outfits typically consist of multiple items such as shoes, accessories and more. Current models assume a fixed input size, limiting their ability to handle outfits with varying numbers of items. \cite[vgl.]{chen_survey_2023}
+\item There is a lack of methods that explore compatibility without relying on predefined category labels. In realistic fashion scenarios, items may belong to overlapping or ambiguous categories. \cite[vgl.]{chen_survey_2023}
+\item Existing approaches often fail to account for the interplay between visual aesthetics, contextual factors and personal preferences. \cite[vgl.]{chen_survey_2023}, \cite[vgl.]{deldjoo_review_2022}
+\end{enumerate}
+
+This thesis addresses these challenges by proposing a solution that assesses the visual personal quality of outfits from images of individuals wearing them. The approach integrates existing \acs{DL} techniques and is capable of evaluating compatibility across outfits with an arbitrary number of items, moving beyond the limitations of fixed-input models.
+
+To achieve this, focus lies on several key tasks. First, existing research and the \acs{DL} models used in it are analyzed for their applicability to outfit evaluation tasks. Based on this, a concept of a solution is created while considering tackling the gaps identified earlier. Then, suitable models are selected and integrated into a pipeline that processes input images and generates a numerical score that reflects the visual quality of the outfit. Third, experiments are conducted to evaluate the effectiveness of implementation alone as well as with incorporated supplementary data on contextual factors into the evaluation process.
+
+\section{Scope and Expected Outcomes}
+
+The scope of this thesis encompasses several key areas within \acs{AI} and fashion technology. Technically, the study focuses on the utilization and adaptation of existing state-of-the-art \acs{DL} models for image-based outfit evaluation. This includes experimenting with different types of \acs{ML} models within \ac{CV}, transfer learning, feature extraction methods, embedding techniques and evaluation metrics to assess visual elements. Functionally, the project involves developing a pipeline that accepts images as input and outputs a numerical score reflecting the visual quality of the outfit. Scientifically, the research analyzes the effectiveness of combining different model architectures in capturing subjective aesthetic judgments.
+
+The expected outcomes of this research include the development of a proof-of-concept prototype that demonstrates the feasibility of \acs{AI}-driven outfit evaluation. This prototype will serve as the foundation for a personalized \acs{AI}-Stylist application, enabling users to receive real-time feedback on their outfits and access tailored recommendations.

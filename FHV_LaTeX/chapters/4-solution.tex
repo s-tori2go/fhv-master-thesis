@@ -1,0 +1,258 @@
+\chapter{Proposed Solutions}
+\section{Overview of Potential Approaches}
+
+FashionCLIP is a CLIP-like model fine-tuned for the fashion domain.
+Fine-Tuning Techniques
+
+\href{https://viso.ai/deep-learning/pose-estimation-ultimate-overview/}{Human Pose Estimation reference}
+
+category-guided attention mechanisms
+
+Future Research Directions (For Thesis): Investigate the use of machine learning to *dynamically* adjust compatibility rules based on the current outfit’s characteristics. Develop a system that allows users to provide more detailed style preferences and integrate these preferences into the generation process. Extend the system to generate outfits that synthesize elements from multiple existing style guidelines, creating unique and novel combinations. - While the output is visually appealing, integration notes suggest a further refinement of the compatibility criteria, potentially incorporating factors like color palettes, silhouette considerations, and formality level.  The system performs well with common garment types - shirts, pants, dresses - but struggles with more complex combinations.
+
+Extract features -> compute matching -> compute overall compatibility score
+Your revised idea is much clearer, and it effectively outlines a strategy to simulate the functionality of a GAN-inspired system without actually implementing a full GAN. This approach leverages existing models and techniques in a creative way, making it both feasible and resource-efficient. Below, I'll break down your concept into its key components, provide feedback, and suggest refinements.
+
+---
+
+1. Core Idea: Simulating GAN-Like Functionality
+You're inspired by GANs but don't want to implement one due to computational constraints. Instead, you'll use a combination of existing models and techniques to achieve similar functionality.
+
+Strengths:
+- GAN inspiration is a great starting point for thinking about generative and evaluative components.
+- By avoiding the complexity of training a GAN, you can focus on leveraging pre-trained models and simpler architectures.
+
+Challenges:
+- Without a true generator-discriminator loop, you need to carefully design how the "generator-like" and "discriminator-like" components interact.
+- Ensuring that the system learns meaningful relationships between clothing items and aesthetic ratings will require careful feature engineering.
+
+Suggestion:
+- Treat the "generator-like" component as a template-guided outfit creator or a random combiner of clothing items.
+- Use the "discriminator-like" component (e.g., a scoring model) to evaluate the quality of these outfits.
+- Iteratively refine the outfit creation process based on feedback from the scoring model.
+
+---
+
+2. Discriminator-Like Architecture
+The discriminator evaluates whether an outfit is "good" or "bad" and assigns an aesthetic rating (1-10).
+
+Strengths:
+- A scoring model is central to your use case and aligns well with your goal of rating outfits.
+- Using a 1-10 scale provides fine-grained feedback.
+
+Challenges:
+- The model needs to learn what makes an outfit aesthetically pleasing, which depends on subjective human preferences.
+- Training such a model requires high-quality labeled data.
+
+Suggestion:
+- Start with a pre-trained vision model (e.g., CLIP, ViT, or ResNet) fine-tuned on fashion datasets like DeepFashion or Fashion-MNIST.
+- Use Siamese networks or triplet loss to create an embedding space where similar outfits are closer together.
+- Incorporate additional features (e.g., color harmony, balance) into the scoring process.
+
+
+
+Let's design a modular discriminator architecture for rating outfits. This architecture will focus on evaluating the aesthetic quality of an outfit based on visual features.
+
+Discriminator Architecture
+
+The discriminator can be built using a combination of convolutional neural networks (CNNs) and multi-layer perceptrons (MLPs). Here's a modular approach:
+
+1. Feature Extraction Module
+   - Architecture: Use a pre-trained CNN like ResNet-50 or VGG16 to extract features from outfit images. This module will capture visual attributes such as color, texture, and composition.
+   - Implementation: Load a pre-trained model and freeze its weights initially. You can fine-tune the model later if needed.
+
+2. Feature Processing Module
+   - Architecture: Implement an MLP to process the extracted features. This module will refine the features to better represent the outfit's aesthetic qualities.
+   - Implementation: Use a 2-3 layer MLP with ReLU activation in the hidden layers. The output layer should have a single neuron for regression tasks.
+
+3. Aesthetic Scoring Module
+   - Architecture: This module uses the processed features to predict an aesthetic score. It can be a simple linear layer or another MLP layer.
+   - Implementation: Use a linear layer with a sigmoid activation function to output a score between 0 and 1, which can be scaled to a percentage.
+
+Modular Design Considerations
+
+- Modularity: Each module can be developed and tested independently, allowing for easier maintenance and updates.
+- Flexibility: Modules can be swapped with different architectures if needed. For example, you could replace the ResNet-50 with a more lightweight model like MobileNet for efficiency.
+
+Example Code (PyTorch)
+
+Here's a simplified example of how you might implement this architecture:
+
+Implementation Tips
+
+1. Data Preparation: Ensure your dataset includes diverse outfits with corresponding aesthetic scores.
+2. Normalization: Normalize input images to ensure consistency.
+3. Hyperparameter Tuning: Experiment with different learning rates, batch sizes, and number of epochs.
+4. Validation Strategy: Use a validation set to monitor performance and prevent overfitting.
+
+This modular design allows for flexibility and scalability, making it easier to refine and extend the model as needed.
+
+---
+Answer from Perplexity: pplx.ai/share
+
+
+---
+
+3. Pose Estimation, Segmentation, and Clothing Type Recognition
+These techniques help identify and extract clothing items from images.
+
+Strengths:
+- These tools enable the system to understand the individual components of an outfit.
+- They allow for the creation of realistic positive and negative samples.
+
+Challenges:
+- Pre-trained models may struggle with occlusions, unusual poses, or low-resolution images.
+- Generating synthetic negative samples (shuffled outfits) might not always reflect real-world scenarios.
+
+Suggestion:
+- Use pre-trained models for pose estimation (e.g., OpenPose), segmentation (e.g., Mask R-CNN), and clothing type recognition (e.g., fine-tuned EfficientNet).
+- For negative samples, apply controlled transformations (e.g., swapping colors, textures, or proportions) to ensure realism.
+
+---
+
+4. IDM-VTON for Virtual Try-On
+Using IDM-VTON to place segmented clothing items on a person is a clever way to simulate outfit combinations.
+
+Strengths:
+- Virtual try-on ensures that generated outfits look realistic and contextually appropriate.
+- It adds an interactive element to the app.
+
+Challenges:
+- IDM-VTON may not handle all body shapes or poses perfectly.
+- Computational overhead could be significant if used extensively.
+
+Suggestion:
+- Use IDM-VTON sparingly, perhaps only for visualizing top-rated outfits.
+- Consider alternative lightweight virtual try-on solutions if computational resources are limited.
+
+---
+
+5. Siamese Network for Embedding Space
+Using a Siamese network to learn similarity-based scoring is an excellent choice.
+
+Strengths:
+- Embedding spaces allow for meaningful comparisons between outfits.
+- Triplet loss can effectively cluster similar outfits and separate dissimilar ones.
+
+Challenges:
+- Generating sufficient positive and negative pairs for training can be time-consuming.
+- The quality of the embedding space depends on the diversity of the dataset.
+
+Suggestion:
+- Use pre-trained models like Fashion-CLIP to generate initial embeddings.
+- Fine-tune the Siamese network on your dataset using triplet loss or contrastive loss.
+
+---
+
+6. Learning Additional Features
+Incorporating features like color harmony, balance, contrast, and texture matching is crucial for evaluating outfit quality.
+
+Strengths:
+- These features align with human intuition about fashion aesthetics.
+- They add depth to the model's understanding of what makes an outfit "good."
+
+Challenges:
+- Extracting these features programmatically can be non-trivial.
+- Some features (e.g., fit analysis) may require 3D modeling or depth information.
+
+Suggestion:
+- Start with simpler features like color harmony and balance, which can be computed using computer vision techniques.
+- Use pre-trained models or libraries (e.g., ColorThief) to analyze color palettes.
+- Gradually incorporate more complex features as the system evolves.
+
+---
+
+7. Rule-Based AI and Template-Guided Outfit Generation
+Incorporating rule-based systems and templates adds structure to the model.
+
+Strengths:
+- Rules enforce hard constraints (e.g., avoiding clashing colors) and provide interpretability.
+- Templates guide the generation of coherent outfits.
+
+Challenges:
+- Rules might not capture all nuances of fashion.
+- Templates could limit creativity and flexibility.
+
+Suggestion:
+- Use rules as a starting point but allow the model to deviate based on learned patterns.
+- Combine rule-based systems with machine learning by using rules as priors or constraints during training.
+
+---
+
+8. 8-Point Rule of Fashion
+This is a creative way to quantify outfit balance.
+
+Strengths:
+- Simple and intuitive.
+- Encourages balanced styling without being overly restrictive.
+
+Challenges:
+- Assigning point values to clothing items might require domain expertise.
+- Users might interpret "zing and pep" differently.
+
+Suggestion:
+- Use this rule as a heuristic to guide outfit creation or as a post-processing step.
+- Allow users to customize the point system based on their preferences.
+
+---
+
+9. Ensemble Modeling
+Using multiple pre-trained networks to extract diverse features is a strong strategy.
+
+Strengths:
+- Combines the strengths of different models.
+- Improves robustness and generalization.
+
+Challenges:
+- Increases computational overhead.
+- Requires careful fusion of features from different models.
+
+Suggestion:
+- Start with a small ensemble of two or three models (e.g., one for global features and one for local details).
+- Use late fusion (e.g., concatenating outputs) or attention mechanisms to combine features effectively.
+
+---
+
+10. Final Output: Basic AI That Knows Fashion Styling Guidelines
+Your goal is to create a basic AI that understands fashion styling guidelines and can rate outfits.
+
+Strengths:
+- The system incorporates a wide range of techniques and ideas, making it versatile and engaging.
+- It balances creativity with structure through the use of rules and templates.
+
+Challenges:
+- Integrating all components seamlessly requires careful planning and testing.
+- Ensuring the system generalizes well to unseen data is critical.
+
+Suggestion:
+- Start with a minimal viable product (MVP) that incorporates a subset of the ideas.
+- Gradually add complexity as you validate each component.
+- Leverage user feedback to refine the system over time.
+
+---
+
+Key Takeaways
+1. Focus on Feasibility: Avoid computationally expensive tasks (e.g., training a GAN) and leverage pre-trained models wherever possible.
+2. Prioritize Key Features: Begin with essential features like color harmony, balance, and similarity-based scoring before adding complexity.
+3. Iterative Development: Develop the system incrementally, starting with a simple prototype and refining it based on feedback.
+4. User-Centric Design: Ensure the final product is engaging and useful for users, with opportunities for personalization and interaction.
+
+Your idea has great potential, and with careful implementation, you can create a unique and fun fashion AI! Let me know if you'd like me to dive deeper into any specific aspect of your concept.
+
+
+\section{Comparative Analysis of Solution Approaches}
+\section{Justification for Selected Approach}
+
+
+For the task of compatibility,
+accuracy and AUC have been mainly utilized as shown by Wang et al. [56] Also,
+Papadopoulos et al. [46] for incompatibility detection of outfit fashion items, used
+the Mean Absolute Error (MAE) metric, in addition to accuracy and AUC in order
+to evaluate the performance of their model.
+
+
+proposed a translation-based neural fashion compatibility
+model which contained three parts: (1) first mapped each item into a latent space via two CNN for
+visual and textual modality, (2) encoded the category complementary relations into the latent space,
+and (3) minimized a margin-based ranking criterion to optimize both item embeddings and relation
+vectors jointly.

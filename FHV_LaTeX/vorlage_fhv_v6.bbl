@@ -1,0 +1,1044 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{chen_survey_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=955ce56d123fe405fba4c3f7e1213d6d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hung-Jen},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=dd8d588349671f153a87108e7d4146f4}{%
+           family={Shuai},
+           familyi={S\bibinitperiod},
+           given={Hong-Han},
+           giveni={H\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=a5603a453c4303965647741a00bf417a}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Wen-Huang},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{78ede44a7a5e84dc3b0266633f453c73}
+      \strng{fullhash}{4df9d0be3b329c8b2b1f5d0be4fbdb1e}
+      \strng{fullhashraw}{4df9d0be3b329c8b2b1f5d0be4fbdb1e}
+      \strng{bibnamehash}{4df9d0be3b329c8b2b1f5d0be4fbdb1e}
+      \strng{authorbibnamehash}{4df9d0be3b329c8b2b1f5d0be4fbdb1e}
+      \strng{authornamehash}{78ede44a7a5e84dc3b0266633f453c73}
+      \strng{authorfullhash}{4df9d0be3b329c8b2b1f5d0be4fbdb1e}
+      \strng{authorfullhashraw}{4df9d0be3b329c8b2b1f5d0be4fbdb1e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1053-5888, 1558-0792}
+      \field{journaltitle}{IEEE Signal Processing Magazine}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{A {Survey} of {Artificial} {Intelligence} in {Fashion}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{64\bibrangedash 73}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/MSP.2022.3233449
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10113373/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10113373/
+      \endverb
+    \endentry
+    \entry{deldjoo_review_2022}{misc}{}{}
+      \name{author}{7}{}{%
+        {{hash=f2e35793c0d1cf947dadd15e91da1051}{%
+           family={Deldjoo},
+           familyi={D\bibinitperiod},
+           given={Yashar},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=265a9f46f7021ba03e9b3d1cf8b2546a}{%
+           family={Nazary},
+           familyi={N\bibinitperiod},
+           given={Fatemeh},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d1fa232b97e7e2a28c04db04e51ae1d6}{%
+           family={Ramisa},
+           familyi={R\bibinitperiod},
+           given={Arnau},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5f8252cb06597baa35a41ab2134a5651}{%
+           family={Mcauley},
+           familyi={M\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5aa8ee3bcdc7d1605ba26770a0b368b9}{%
+           family={Pellegrini},
+           familyi={P\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=289e1be3d6fc3f1e16e277a4d7c60ca1}{%
+           family={Bellogin},
+           familyi={B\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2552a419526e8c735ef26c7592761c16}{%
+           family={Di\bibnamedelima Noia},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Tommaso},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{15998db220e85c4b611cddbac22eb5d6}
+      \strng{fullhash}{d59bfc5fcf1e2b6b5a8fc631606aa8d1}
+      \strng{fullhashraw}{d59bfc5fcf1e2b6b5a8fc631606aa8d1}
+      \strng{bibnamehash}{15998db220e85c4b611cddbac22eb5d6}
+      \strng{authorbibnamehash}{15998db220e85c4b611cddbac22eb5d6}
+      \strng{authornamehash}{15998db220e85c4b611cddbac22eb5d6}
+      \strng{authorfullhash}{d59bfc5fcf1e2b6b5a8fc631606aa8d1}
+      \strng{authorfullhashraw}{d59bfc5fcf1e2b6b5a8fc631606aa8d1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The textile and apparel industries have grown tremendously over the last few years. Customers no longer have to visit many stores, stand in long queues, or try on garments in dressing rooms as millions of products are now available in online catalogs. However, given the plethora of options available, an effective recommendation system is necessary to properly sort, order, and communicate relevant product material or information to users. Effective fashion RS can have a noticeable impact on billions of customers' shopping experiences and increase sales and revenues on the provider side. The goal of this survey is to provide a review of recommender systems that operate in the specific vertical domain of garment and fashion products. We have identified the most pressing challenges in fashion RS research and created a taxonomy that categorizes the literature according to the objective they are trying to accomplish (e.g., item or outfit recommendation, size recommendation, explainability, among others) and type of side-information (users, items, context). We have also identified the most important evaluation goals and perspectives (outfit generation, outfit recommendation, pairing recommendation, and fill-in-the-blank outfit compatibility prediction) and the most commonly used datasets and evaluation metrics.}
+      \field{title}{A {Review} of {Modern} {Fashion} {Recommender} {Systems}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2202.02757
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2202.02757
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2202.02757
+      \endverb
+      \keyw{FOS: Computer and information sciences,Information Retrieval (cs.IR)}
+    \endentry
+    \entry{kouslis_ai_2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=8d217465499b8d70da913856f2957bd0}{%
+           family={Kouslis},
+           familyi={K\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8768aa25fcf6e9ef817ae7a649c57407}{%
+           family={Papachristou},
+           familyi={P\bibinitperiod},
+           given={Evridiki},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5c613118b2f490cd0be97c2353c98a91}{%
+           family={Stavropoulos},
+           familyi={S\bibinitperiod},
+           given={Thanos\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=fa9f277a4908458c89215e8edbdce638}{%
+           family={Papazoglou\bibnamedelima Chalikias},
+           familyi={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Anastasios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=53fbf684e770c1b9edd9d2fd9815cd6c}{%
+           family={Chatzilari},
+           familyi={C\bibinitperiod},
+           given={Elisavet},
+           giveni={E\bibinitperiod}}}%
+        {{hash=725283f0e035f9e84885254f4af3ef52}{%
+           family={Nikolopoulos},
+           familyi={N\bibinitperiod},
+           given={Spiros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50c1c75c0291ee56b3303853d6487aa7}{%
+           family={Kompatsiaris},
+           familyi={K\bibinitperiod},
+           given={Ioannis},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e9b454ab2aa7fc5b3cbb2cc01fedd02c}
+      \strng{fullhash}{570e32404b0ca538b95652271b3c8385}
+      \strng{fullhashraw}{570e32404b0ca538b95652271b3c8385}
+      \strng{bibnamehash}{e9b454ab2aa7fc5b3cbb2cc01fedd02c}
+      \strng{authorbibnamehash}{e9b454ab2aa7fc5b3cbb2cc01fedd02c}
+      \strng{authornamehash}{e9b454ab2aa7fc5b3cbb2cc01fedd02c}
+      \strng{authorfullhash}{570e32404b0ca538b95652271b3c8385}
+      \strng{authorfullhashraw}{570e32404b0ca538b95652271b3c8385}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1389-5753, 1572-9362}
+      \field{journaltitle}{Electronic Commerce Research}
+      \field{month}{6}
+      \field{shorttitle}{{AI} in fashion}
+      \field{title}{{AI} in fashion: a literature review}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s10660-024-09872-z
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s10660-024-09872-z
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10660-024-09872-z
+      \endverb
+    \endentry
+    \entry{cheng_fashion_2020}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=a5603a453c4303965647741a00bf417a}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Wen-Huang},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=4778a3ec802e9eece98991470f735b3c}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Sijie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=254a23422fdbac2d360db0a79efd3a3c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chieh-Yun},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=e1583fc2e987f371cc471e6fef971430}{%
+           family={Hidayati},
+           familyi={H\bibinitperiod},
+           given={Shintami\bibnamedelima Chusnul},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e97cb99f7ec95531e680d1c399e23717}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiaying},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{5f15955f823d16520641646fdf9b787b}
+      \strng{fullhash}{c631d35398976365f4c9b348e7f15170}
+      \strng{fullhashraw}{c631d35398976365f4c9b348e7f15170}
+      \strng{bibnamehash}{c631d35398976365f4c9b348e7f15170}
+      \strng{authorbibnamehash}{c631d35398976365f4c9b348e7f15170}
+      \strng{authornamehash}{5f15955f823d16520641646fdf9b787b}
+      \strng{authorfullhash}{c631d35398976365f4c9b348e7f15170}
+      \strng{authorfullhashraw}{c631d35398976365f4c9b348e7f15170}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Fashion is the way we present ourselves to the world and has become one of the world's largest industries. Fashion, mainly conveyed by vision, has thus attracted much attention from computer vision researchers in recent years. Given the rapid development, this paper provides a comprehensive survey of more than 200 major fashion-related works covering four main aspects for enabling intelligent fashion: (1) Fashion detection includes landmark detection, fashion parsing, and item retrieval, (2) Fashion analysis contains attribute recognition, style learning, and popularity prediction, (3) Fashion synthesis involves style transfer, pose transformation, and physical simulation, and (4) Fashion recommendation comprises fashion compatibility, outfit matching, and hairstyle suggestion. For each task, the benchmark datasets and the evaluation protocols are summarized. Furthermore, we highlight promising directions for future research.}
+      \field{shorttitle}{Fashion {Meets} {Computer} {Vision}}
+      \field{title}{Fashion {Meets} {Computer} {Vision}: {A} {Survey}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2003.13988
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2003.13988
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2003.13988
+      \endverb
+      \keyw{Computer Vision and Pattern Recognition (cs.CV),FOS: Computer and information sciences}
+    \endentry
+    \entry{shirkhani_study_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6a627491ba66dc1aea7a8ba450d0d778}{%
+           family={Shirkhani},
+           familyi={S\bibinitperiod},
+           given={Shaghayegh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8f22faa29bdc77d0676708660b3e88ea}{%
+           family={Mokayed},
+           familyi={M\bibinitperiod},
+           given={Hamam},
+           giveni={H\bibinitperiod}}}%
+        {{hash=59167fd05298d04d3138a371d7fde359}{%
+           family={Saini},
+           familyi={S\bibinitperiod},
+           given={Rajkumar},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e94f4f25f6da83d3799c3ab482371dd8}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={Hum\bibnamedelima Yan},
+           giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c0d5bab4b4035b8ff30790cc94c4f3a7}
+      \strng{fullhash}{685cc2e95755b4a7def7d83aa0c286a8}
+      \strng{fullhashraw}{685cc2e95755b4a7def7d83aa0c286a8}
+      \strng{bibnamehash}{685cc2e95755b4a7def7d83aa0c286a8}
+      \strng{authorbibnamehash}{685cc2e95755b4a7def7d83aa0c286a8}
+      \strng{authornamehash}{c0d5bab4b4035b8ff30790cc94c4f3a7}
+      \strng{authorfullhash}{685cc2e95755b4a7def7d83aa0c286a8}
+      \strng{authorfullhashraw}{685cc2e95755b4a7def7d83aa0c286a8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The rising diversity, volume, and pace of fashion manufacturing pose a considerable challenge in the fashion industry, making it difficult for customers to pick which product to purchase. In addition, fashion is an inherently subjective, cultural notion and an ensemble of clothing items that maintains a coherent style. In most of the domains in which Recommender Systems are developed (e.g., movies, e-commerce, etc.), the similarity evaluation is considered for recommendation. Instead, in the Fashion domain, compatibility is a critical factor. In addition, raw visual features belonging to product representations that contribute to most of the algorithm’s performances in the Fashion domain are distinguishable from the metadata of the products in other domains. This literature review summarizes various Artificial Intelligence (AI) techniques that have lately been used in recommender systems for the fashion industry. AI enables higher-quality recommendations than earlier approaches. This has ushered in a new age for recommender systems, allowing for deeper insights into user-item relationships and representations and the discovery patterns in demographical, textual, virtual, and contextual data. This work seeks to give a deeper understanding of the fashion recommender system domain by performing a comprehensive literature study of research on this topic in the past 10 years, focusing on image-based fashion recommender systems taking AI improvements into account. The nuanced conceptions of this domain and their relevance have been developed to justify fashion domain-specific characteristics.}
+      \field{issn}{2661-8907}
+      \field{journaltitle}{SN Computer Science}
+      \field{month}{7}
+      \field{number}{5}
+      \field{title}{Study of {AI}-{Driven} {Fashion} {Recommender} {Systems}}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{514}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s42979-023-01932-9
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s42979-023-01932-9
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s42979-023-01932-9
+      \endverb
+    \endentry
+    \entry{brownlee_deep_2019}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f98902cd63327e943d29ddf4bbdaee61}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{fullhash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{fullhashraw}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{bibnamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorbibnamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authornamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorfullhash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorfullhashraw}{f98902cd63327e943d29ddf4bbdaee61}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep {Learning} for {Computer} {Vision}: {Image} {Classification}, {Object} {Detection}, and {Face} {Recognition} in {Python}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://books.google.at/books?id=DOamDwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.at/books?id=DOamDwAAQBAJ
+      \endverb
+    \endentry
+    \entry{muller_introduction_2017}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=7613e1884d5b61e11f1ea6f6f8e7a720}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Andreas\bibnamedelima Christian},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=529c7671a0173ff25261c1f04363a982}{%
+           family={Guido},
+           familyi={G\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Sebastopol, CA}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{ed392657cb15b72e6f6da22863903b09}
+      \strng{fullhash}{ed392657cb15b72e6f6da22863903b09}
+      \strng{fullhashraw}{ed392657cb15b72e6f6da22863903b09}
+      \strng{bibnamehash}{ed392657cb15b72e6f6da22863903b09}
+      \strng{authorbibnamehash}{ed392657cb15b72e6f6da22863903b09}
+      \strng{authornamehash}{ed392657cb15b72e6f6da22863903b09}
+      \strng{authorfullhash}{ed392657cb15b72e6f6da22863903b09}
+      \strng{authorfullhashraw}{ed392657cb15b72e6f6da22863903b09}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{First edition}
+      \field{isbn}{9781449369415}
+      \field{shorttitle}{Introduction to machine learning with {Python}}
+      \field{title}{Introduction to machine learning with {Python}: a guide for data scientists}
+      \field{year}{2017}
+    \endentry
+    \entry{wang_outfit_2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=03d3e23852937fa39b0e34246c4ecd1d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a3467545efc97f24be8a5d66e4c70ab4}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2943a941d72c04ff226c7b02b416c55a}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=efd88e7e517a6ef9ae51460ec531acd1}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Yueqi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{aeaae95a3851acdb0d7c761eee05b973}
+      \strng{fullhash}{e8b1c78025e3c044fcbf94258833c59e}
+      \strng{fullhashraw}{e8b1c78025e3c044fcbf94258833c59e}
+      \strng{bibnamehash}{e8b1c78025e3c044fcbf94258833c59e}
+      \strng{authorbibnamehash}{e8b1c78025e3c044fcbf94258833c59e}
+      \strng{authornamehash}{aeaae95a3851acdb0d7c761eee05b973}
+      \strng{authorfullhash}{e8b1c78025e3c044fcbf94258833c59e}
+      \strng{authorfullhashraw}{e8b1c78025e3c044fcbf94258833c59e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Existing works about fashion outfit compatibility focus on predicting the overall compatibility of a set of fashion items with their information from different modalities. However, there are few works explore how to explain the prediction, which limits the persuasiveness and effectiveness of the model. In this work, we propose an approach to not only predict but also diagnose the outfit compatibility. We introduce an end-to-end framework for this goal, which features for: (1) The overall compatibility is learned from all type-specified pairwise similarities between items, and the backpropagation gradients are used to diagnose the incompatible factors. (2) We leverage the hierarchy of CNN and compare the features at different layers to take into account the compatibilities of different aspects from the low level (such as color, texture) to the high level (such as style). To support the proposed method, we build a new type-specified outfit dataset named Polyvore-T based on Polyvore dataset. We compare our method with the prior state-of-the-art in two tasks: outfit compatibility prediction and fill-in-the-blank. Experiments show that our approach has advantages in both prediction performance and diagnosis ability.}
+      \field{title}{Outfit {Compatibility} {Prediction} and {Diagnosis} with {Multi}-{Layered} {Comparison} {Network}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1907.11496
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1907.11496
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1907.11496
+      \endverb
+      \keyw{Computer Vision and Pattern Recognition (cs.CV),FOS: Computer and information sciences,Machine Learning (cs.LG),Multimedia (cs.MM)}
+    \endentry
+    \entry{moosaei_fashion_2020}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=4ec6c6833fb86336010054a1ea152edc}{%
+           family={Moosaei},
+           familyi={M\bibinitperiod},
+           given={Maryam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=57c7b31c9e105974c1737428408e77d1}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yusan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ffc6e98cdb5fcaae9b79cd4ce7d15efa}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{fac1713dee415d8ea43ca3d0deec67e6}
+      \strng{fullhash}{300884009b80e9ec1e521d9f7555c39b}
+      \strng{fullhashraw}{300884009b80e9ec1e521d9f7555c39b}
+      \strng{bibnamehash}{300884009b80e9ec1e521d9f7555c39b}
+      \strng{authorbibnamehash}{300884009b80e9ec1e521d9f7555c39b}
+      \strng{authornamehash}{fac1713dee415d8ea43ca3d0deec67e6}
+      \strng{authorfullhash}{300884009b80e9ec1e521d9f7555c39b}
+      \strng{authorfullhashraw}{300884009b80e9ec1e521d9f7555c39b}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fashion is an inherently visual concept and computer vision and artificial intelligence (AI) are playing an increasingly important role in shaping the future of this domain. Many research has been done on recommending fashion products based on the learned user preferences. However, in addition to recommending single items, AI can also help users create stylish outfits from items they already have, or purchase additional items that go well with their current wardrobe. Compatibility is the key factor in creating stylish outfits from single items. Previous studies have mostly focused on modeling pair-wise compatibility. There are a few approaches that consider an entire outfit, but these approaches have limitations such as requiring rich semantic information, category labels, and fixed order of items. Thus, they fail to effectively determine compatibility when such information is not available. In this work, we adopt a Relation Network (RN) to develop new compatibility learning models, Fashion RN and FashionRN-VSE, that addresses the limitations of existing approaches. FashionRN learns the compatibility of an entire outfit, with an arbitrary number of items, in an arbitrary order. We evaluated our model using a large dataset of 49,740 outfits that we collected from Polyvore website. Quantitatively, our experimental results demonstrate state of the art performance compared with alternative methods in the literature in both compatibility prediction and fill-in-the-blank test. Qualitatively, we also show that the item embedding learned by FashionRN indicate the compatibility among fashion items.}
+      \field{title}{Fashion {Recommendation} and {Compatibility} {Prediction} {Using} {Relational} {Network}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2005.06584
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2005.06584
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2005.06584
+      \endverb
+      \keyw{Artificial Intelligence (cs.AI),FOS: Computer and information sciences,Information Retrieval (cs.IR),Machine Learning (cs.LG)}
+    \endentry
+    \entry{liu_mgcm_2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=df5f32fac50185d48b29ce58bfa8cf68}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jinhuan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3c9141019d1e4b56a6d613933beaa452}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Xuemeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=65cde5120c4ec8d9e5762295e5ab9f51}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhumin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=70d98ba727cc8114a6e494cf39de84a7}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d58a4fb705ad8754c90542d9be676f11}
+      \strng{fullhash}{30586e70089abe97893bb79f3357f471}
+      \strng{fullhashraw}{30586e70089abe97893bb79f3357f471}
+      \strng{bibnamehash}{30586e70089abe97893bb79f3357f471}
+      \strng{authorbibnamehash}{30586e70089abe97893bb79f3357f471}
+      \strng{authornamehash}{d58a4fb705ad8754c90542d9be676f11}
+      \strng{authorfullhash}{30586e70089abe97893bb79f3357f471}
+      \strng{authorfullhashraw}{30586e70089abe97893bb79f3357f471}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{09252312}
+      \field{journaltitle}{Neurocomputing}
+      \field{month}{11}
+      \field{shorttitle}{{MGCM}}
+      \field{title}{{MGCM}: {Multi}-modal generative compatibility modeling for clothing matching}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{414}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{215\bibrangedash 224}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.neucom.2020.06.033
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0925231220310043
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0925231220310043
+      \endverb
+    \endentry
+    \entry{moosaei_outfitgan_2022}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=4ec6c6833fb86336010054a1ea152edc}{%
+           family={Moosaei},
+           familyi={M\bibinitperiod},
+           given={Maryam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=57c7b31c9e105974c1737428408e77d1}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yusan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e948315b020329bfd78e4814946688a6}{%
+           family={Akhazhanov},
+           familyi={A\bibinitperiod},
+           given={Ablaikhan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d3b2e9c677406b7e2a906c77a80150b3}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Huiyuan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=60af9bc009f709103e587bb92cee1cda}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ffc6e98cdb5fcaae9b79cd4ce7d15efa}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{fac1713dee415d8ea43ca3d0deec67e6}
+      \strng{fullhash}{9d623d9f73289b503e6a6e90c9b7cdad}
+      \strng{fullhashraw}{9d623d9f73289b503e6a6e90c9b7cdad}
+      \strng{bibnamehash}{9d623d9f73289b503e6a6e90c9b7cdad}
+      \strng{authorbibnamehash}{9d623d9f73289b503e6a6e90c9b7cdad}
+      \strng{authornamehash}{fac1713dee415d8ea43ca3d0deec67e6}
+      \strng{authorfullhash}{9d623d9f73289b503e6a6e90c9b7cdad}
+      \strng{authorfullhashraw}{9d623d9f73289b503e6a6e90c9b7cdad}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{2022 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})}
+      \field{isbn}{9781665487399}
+      \field{month}{6}
+      \field{shorttitle}{{OutfitGAN}}
+      \field{title}{{OutfitGAN}: {Learning} {Compatible} {Items} for {Generative} {Fashion} {Outfits}}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{2272\bibrangedash 2276}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/CVPRW56347.2022.00251
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9857247/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9857247/
+      \endverb
+    \endentry
+    \entry{zheng_collocation_2021}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=4e54afdd6067c7a57a26ef6ec3cc4128}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Na},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3c9141019d1e4b56a6d613933beaa452}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Xuemeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=919f75515e7f760b4f34897ffe6ff1a5}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Qingying},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=1b8e3b29889aff172d9fd5be3dfb8487}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Xue},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c073e42ae7c927c935762e29509b642e}{%
+           family={Zhan},
+           familyi={Z\bibinitperiod},
+           given={Yibing},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bc7884a5203c192ab9125f81d18db97d}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Liqiang},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Virtual Event China}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{43946971ae5dd10b36138fa1c5d98fee}
+      \strng{fullhash}{b8506956a8eee77c2fa27c42cbe5a02d}
+      \strng{fullhashraw}{b8506956a8eee77c2fa27c42cbe5a02d}
+      \strng{bibnamehash}{b8506956a8eee77c2fa27c42cbe5a02d}
+      \strng{authorbibnamehash}{b8506956a8eee77c2fa27c42cbe5a02d}
+      \strng{authornamehash}{43946971ae5dd10b36138fa1c5d98fee}
+      \strng{authorfullhash}{b8506956a8eee77c2fa27c42cbe5a02d}
+      \strng{authorfullhashraw}{b8506956a8eee77c2fa27c42cbe5a02d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Proceedings of the 29th {ACM} {International} {Conference} on {Multimedia}}
+      \field{isbn}{9781450386517}
+      \field{month}{10}
+      \field{shorttitle}{Collocation and {Try}-on {Network}}
+      \field{title}{Collocation and {Try}-on {Network}: {Whether} an {Outfit} is {Compatible}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{309\bibrangedash 317}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3474085.3475691
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3474085.3475691
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3474085.3475691
+      \endverb
+    \endentry
+    \entry{guan_partially_2022}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=92010045a22f8157aef38e16d6c8a27c}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Weili},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1732b7b79ecf3e54a7eb2ebf94769798}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Haokun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3c9141019d1e4b56a6d613933beaa452}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Xuemeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b1eac6ed691ecfe6953dee96e5a93e40}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7b0c705c148a5a7d72a9fb02e31b0477}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Chung-Hsing},
+           giveni={C\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=92fa5955af28e77359c28dcdd2a05845}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bc7884a5203c192ab9125f81d18db97d}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Liqiang},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7c00edf256fdbb55f4a0bf061428566}
+      \strng{fullhash}{619a8ae699135b84c30509d7a749d06f}
+      \strng{fullhashraw}{619a8ae699135b84c30509d7a749d06f}
+      \strng{bibnamehash}{e7c00edf256fdbb55f4a0bf061428566}
+      \strng{authorbibnamehash}{e7c00edf256fdbb55f4a0bf061428566}
+      \strng{authornamehash}{e7c00edf256fdbb55f4a0bf061428566}
+      \strng{authorfullhash}{619a8ae699135b84c30509d7a749d06f}
+      \strng{authorfullhashraw}{619a8ae699135b84c30509d7a749d06f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1057-7149, 1941-0042}
+      \field{journaltitle}{IEEE Transactions on Image Processing}
+      \field{title}{Partially {Supervised} {Compatibility} {Modeling}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{31}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{4733\bibrangedash 4745}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TIP.2022.3187290
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9817021/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9817021/
+      \endverb
+    \endentry
+    \entry{kim_self-supervised_2020}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=69c67a7835bae411a48cf54967c18f39}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Donghyun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1395e79c562458431482bd78672a19f0}{%
+           family={Saito},
+           familyi={S\bibinitperiod},
+           given={Kuniaki},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1e700ef2be246eeceed578e9247c9fbf}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Samarth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0fb2301a846eadeb3162268b0f0d52cb}{%
+           family={Sclaroff},
+           familyi={S\bibinitperiod},
+           given={Stan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=df6dd5c482f41a42e672eecaa779020c}{%
+           family={Saenko},
+           familyi={S\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e676bc3b99609e7b0756bdd5e96c56ca}{%
+           family={Plummer},
+           familyi={P\bibinitperiod},
+           given={Bryan\bibnamedelima A},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{6a19d2f9cfa31659b48d3d0cc2afd36c}
+      \strng{fullhash}{45d6e225339d17b3371838b365325edc}
+      \strng{fullhashraw}{45d6e225339d17b3371838b365325edc}
+      \strng{bibnamehash}{45d6e225339d17b3371838b365325edc}
+      \strng{authorbibnamehash}{45d6e225339d17b3371838b365325edc}
+      \strng{authornamehash}{6a19d2f9cfa31659b48d3d0cc2afd36c}
+      \strng{authorfullhash}{45d6e225339d17b3371838b365325edc}
+      \strng{authorfullhashraw}{45d6e225339d17b3371838b365325edc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many self-supervised learning (SSL) methods have been successful in learning semantically meaningful visual representations by solving pretext tasks. However, prior work in SSL focuses on tasks like object recognition or detection, which aim to learn object shapes and assume that the features should be invariant to concepts like colors and textures. Thus, these SSL methods perform poorly on downstream tasks where these concepts provide critical information. In this paper, we present an SSL framework that enables us to learn color and texture-aware features without requiring any labels during training. Our approach consists of three self-supervised tasks designed to capture different concepts that are neglected in prior work that we can select from depending on the needs of our downstream tasks. Our tasks include learning to predict color histograms and discriminate shapeless local patches and textures from each instance. We evaluate our approach on fashion compatibility using Polyvore Outfits and In-Shop Clothing Retrieval using Deepfashion, improving upon prior SSL methods by 9.5-16\%, and even outperforming some supervised approaches on Polyvore Outfits despite using no labels. We also show that our approach can be used for transfer learning, demonstrating that we can train on one dataset while achieving high performance on a different dataset.}
+      \field{title}{Self-supervised {Visual} {Attribute} {Learning} for {Fashion} {Compatibility}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2008.00348
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2008.00348
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2008.00348
+      \endverb
+      \keyw{Computer Vision and Pattern Recognition (cs.CV),FOS: Computer and information sciences}
+    \endentry
+    \entry{dong_towards_2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3d882e86d1d7a39e4cb2772f4e062db7}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Minglong},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c2dcd5968f6531a10bbec8e9096feb63}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Dongliang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2009a3987707398c4584fdaa897e49d1}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jianghong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d95c6f9bce46fda8f66c089f30b7ac7a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Haijun},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a3f102601e74a93458fee9497d56c49}
+      \strng{fullhash}{22b35a16ac9e3e984946da61b5324f55}
+      \strng{fullhashraw}{22b35a16ac9e3e984946da61b5324f55}
+      \strng{bibnamehash}{22b35a16ac9e3e984946da61b5324f55}
+      \strng{authorbibnamehash}{22b35a16ac9e3e984946da61b5324f55}
+      \strng{authornamehash}{5a3f102601e74a93458fee9497d56c49}
+      \strng{authorfullhash}{22b35a16ac9e3e984946da61b5324f55}
+      \strng{authorfullhashraw}{22b35a16ac9e3e984946da61b5324f55}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Collocated clothing synthesis (CCS) has emerged as a pivotal topic in fashion technology, primarily concerned with the generation of a clothing item that harmoniously matches a given item. However, previous investigations have relied on using paired outfits, such as a pair of matching upper and lower clothing, to train a generative model for achieving this task. This reliance on the expertise of fashion professionals in the construction of such paired outfits has engendered a laborious and time-intensive process. In this paper, we introduce a new self-driven framework, named style- and texture-guided generative network (ST-Net), to synthesize collocated clothing without the necessity for paired outfits, leveraging self-supervised learning. ST-Net is designed to extrapolate fashion compatibility rules from the style and texture attributes of clothing, using a generative adversarial network. To facilitate the training and evaluation of our model, we have constructed a large-scale dataset specifically tailored for unsupervised CCS. Extensive experiments substantiate that our proposed method outperforms the state-of-the-art baselines in terms of both visual authenticity and fashion compatibility.}
+      \field{shorttitle}{Towards {Intelligent} {Design}}
+      \field{title}{Towards {Intelligent} {Design}: {A} {Self}-driven {Framework} for {Collocated} {Clothing} {Synthesis} {Leveraging} {Fashion} {Styles} and {Textures}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2501.13396
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2501.13396
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2501.13396
+      \endverb
+      \keyw{Computer Vision and Pattern Recognition (cs.CV),FOS: Computer and information sciences}
+    \endentry
+    \entry{pang_learning_2024}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=6a8730ee9c3bc5463a067220df58f7f5}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Kaicheng},
+           giveni={K\bibinitperiod}}}%
+        {{hash=90b3d455b6afd1deb8177f0fce708660}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Xingxing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3751c3f1a2d257bc709fb381034e5c32}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Waikeung},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Waikoloa, HI, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{632fd5a33b24afc04d9a58422b33efc0}
+      \strng{fullhash}{34924bd1b5c3e69a7272fc9f6e2502e6}
+      \strng{fullhashraw}{34924bd1b5c3e69a7272fc9f6e2502e6}
+      \strng{bibnamehash}{34924bd1b5c3e69a7272fc9f6e2502e6}
+      \strng{authorbibnamehash}{34924bd1b5c3e69a7272fc9f6e2502e6}
+      \strng{authornamehash}{632fd5a33b24afc04d9a58422b33efc0}
+      \strng{authorfullhash}{34924bd1b5c3e69a7272fc9f6e2502e6}
+      \strng{authorfullhashraw}{34924bd1b5c3e69a7272fc9f6e2502e6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 {IEEE}/{CVF} {Winter} {Conference} on {Applications} of {Computer} {Vision} ({WACV})}
+      \field{isbn}{9798350318920}
+      \field{month}{1}
+      \field{title}{Learning {Visual} {Body}-shape-{Aware} {Embeddings} for {Fashion} {Compatibility}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{8041\bibrangedash 8050}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/WACV57701.2024.00787
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10484117/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10484117/
+      \endverb
+    \endentry
+    \entry{vo_efficient_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d70c21e06cd3f18d73d94f9fd8e8a402}{%
+           family={Vo},
+           familyi={V\bibinitperiod},
+           given={Anh\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=016dc1b7249084d10b5e7cdf015431c5}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Tung\bibnamedelimb B.\bibnamedelimi T.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c3602b7fdd6e31156aac0f8a305c0a1a}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Huy\bibnamedelima V.},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=4846189ac5fce4742050914bf7b2fca8}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Bao\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dce576cda471ad7ef3f9092f2ff15dc3}
+      \strng{fullhash}{1c767b374100f258258a20ec5795853d}
+      \strng{fullhashraw}{1c767b374100f258258a20ec5795853d}
+      \strng{bibnamehash}{1c767b374100f258258a20ec5795853d}
+      \strng{authorbibnamehash}{1c767b374100f258258a20ec5795853d}
+      \strng{authornamehash}{dce576cda471ad7ef3f9092f2ff15dc3}
+      \strng{authorfullhash}{1c767b374100f258258a20ec5795853d}
+      \strng{authorfullhashraw}{1c767b374100f258258a20ec5795853d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Nowadays, in a communicating society, fashion is an integral part of a human life, and it is more comfortable and confident when people dress well. Outfit compatibility is not only a combination of different items but also regarding various aspects, such as style, user preferences, and specific occasions. Most of the existing works lead to address the outfit compatibility concerning only style or user preferences, and have no regard for occasions. In this paper, we propose an efficient method for both outfit compatibility and the fill-in-the-blank tasks according to specific occasions. To this end, we utilized an auxiliary classification branch to learn the significantly important features regarding specific occasions. Besides, a sequence to sequence approach is also applied to learn the relationship of different items along with a visual semantic space, which is able to learn the connection between visual features and their semantic presentation. To demonstrate the effectiveness of the proposed method, we conduct experiments on our newly collected Shoplook-Occasion dataset. The experimental results indicate that our proposed method improved the AUC metric from 0.02 to 0.15\% and from 0.5 to 4\% on accuracy, compared with other approaches for outfit compatibility problem conditioning on specific occasions.}
+      \field{issn}{0941-0643, 1433-3058}
+      \field{journaltitle}{Neural Computing and Applications}
+      \field{month}{7}
+      \field{number}{19}
+      \field{title}{An efficient framework for outfit compatibility prediction towards occasion}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{35}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{14213\bibrangedash 14226}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s00521-023-08431-1
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s00521-023-08431-1
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s00521-023-08431-1
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

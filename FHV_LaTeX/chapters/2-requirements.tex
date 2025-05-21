@@ -1,0 +1,53 @@
+\chapter{Requirements Analysis}
+
+This chapter outlines the requirements, challenges and constraints associated with the task of developing an \acs{AI}-based outfit evaluation system.
+
+\section{Definition of Requirements}
+
+The requirements for the outfit evaluation system can be categorized into functional and non-functional requirements. Each addresses specific aspects of the design and operation of the system.
+
+\vspace{0.5cm}
+
+\textbf{Functional Requirements:}
+
+\begin{itemize}
+  \item The system must be capable of accepting high-resolution images as input which serve as the primary data source for evaluation. These images capture individuals wearing outfits.
+  \item The images must be preprocessed in order to satisfy the need for a format that is more suitable for analysis.
+  \item The system must be analysed based on visual aesthetics including features of the outfit (e.g. colors, patterns, prints, shapes, cuts, texture) as well as the person's individual features (e.g. body shapes, hair colors, skin colors, age).
+  \item The system must provide users with a numerical score as feedback.
+  \item Optionally: The system must be capable of identifying common patterns in visual outfit aesthetics, while supporting the optional integration of contextual data and personal preferences to enhance the accuracy of outfit evaluations. This can data can include occasion details (e.g. occasion type, location, cultural and social background), environmental factors (e.g. season, temperature, weather conditions) and impressions/mood (e.g. formal, casual).
+\end{itemize}
+
+\textbf{Non-Functional Requirements:}
+
+\begin{itemize}
+  \item The evaluation process must achieve a high degree of accuracy in assessing the quality of the outfit.
+  \item The system must be accessible through an intuitive interface, enabling users to upload images and receive evaluations.
+\end{itemize}
+
+\section{Challenges and Constraints}
+
+Several technical, functional and ethical challenges must be managed to ensure the feasibility and effectiveness of the solution.
+
+\vspace{0.5cm}
+
+\textbf{Technical Challenges:}
+
+\begin{itemize}
+  \item The accuracy of \acs{DL} models is highly dependent on the availability of a high-quality and diverse dataset. However, obtaining datasets that accurately represent a wide range of fashion styles and contexts poses a significant challenge.
+  \item The concept of fashion is subtle and subjective. A critical challenge is the definition of "good" and "bad" and the quantification of subjective qualities such as "visual appeal" or "style harmony". The evaluation of the outfit varies widely between individuals and is influenced by subjective factors, including cultural norms, personal preferences and context. \cite[vgl.]{chen_survey_2023}
+  \item Since each outfit consists of multiple complementary pieces (such as tops, bottoms, shoes, accessories) item compatibility spans across categories and involves complex interrelationships. \cite[vgl.]{chen_survey_2023}
+\end{itemize}
+
+\textbf{Functional Constraints:}
+
+\begin{itemize}
+  \item To provide a seamless user experience, the system must evaluate outfits and generate scores in real-time. Achieving this within acceptable latency limits imposes constraints on model complexity and computational resources.
+  \item Users expect clear and understandable explanations for the scores assigned to their outfits. Designing a system that not only evaluates but also interprets and communicates results effectively is a non-trivial task.
+\end{itemize}
+
+\textbf{Ethical Constraints:}
+
+\begin{itemize}
+  \item While potential biases in outfit evaluation (such as those related to gender, ethnicity, body type, socioeconomic status) must be addressed to ensure fairness and inclusivity, this thesis does not explicitly tackle bias mitigation. As discussed in prior work (e.g. \cite[vgl.]{deldjoo_review_2022}), such biases can lead to stereotypical recommendations, for instance by reinforcing traditional gender norms in fashion. However, defining and measuring fairness in fashion recommendation remains a complex challenge which is heavily influenced by cultural and contextual factors. This thesis focuses on developing a flexible framework that can accommodate diverse datasets in future applications, allowing for the integration of fairness considerations as needed.
+\end{itemize}

@@ -1,0 +1,174 @@
+\documentclass[a4paper,12pt,twoside]{scrreprt}
+% Autor der Vorlage: Klaus Rheinberger, FH Vorarlberg
+% 2017-02-20
+
+%% Hilfe: z.B.
+% empfohlener Einstieg: http://latex.tugraz.at/
+% https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Schnellkurs:_Erste_Schritte
+% https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Schnellkurs
+% https://de.wikibooks.org/wiki/LaTeX-Kompendium
+
+%% Pakete:
+% \usepackage[latin9]{inputenc} % direkte Angabe von Umlauten
+\usepackage{afterpage}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}    % Silbentrennung bei Sonderzeichen
+\usepackage{graphicx}       % Bilder einbinden
+\usepackage[ngerman,english]{babel} % Deutsche und Englische Sprachanpassungen
+\usepackage{csquotes}       % When using babel or polyglossia with biblatex, loading csquotes is recommended to ensure that quoted texts are typeset according to the rules of your main language.
+\usepackage{acronym}  % für optionales Abkürzungsverzeichnis
+\usepackage{eurosym}  % z. B. \EUR{12345,68}
+\usepackage[linktocpage=true]{hyperref} % Links z. B. \href{https://www.wikibooks.org}{Wikibooks home}
+\usepackage[bindingoffset=8mm]{geometry}% Bindeverlust von 8mm einbeziehen. Mit dem geometry-Paket können Sie die Ränder auch ganz individuell anpassen.
+\usepackage{caption} % Abbildungslegenden
+\captionsetup{format=hang, justification=raggedright}
+
+\usepackage[a-2b,mathxmp]{pdfx}[2018/12/22]
+
+\usepackage[style=ieee,citestyle=ieee,backend=biber]{biblatex}   % Literaturverweise
+%\usepackage[style=numeric,citestyle=numeric,backend=biber]{biblatex}
+% biblatex comes with a variety of built-in bibliography/citation style families (numeric, alphabetic, authoryear, authortitle, verbose), and there's a growing number of custom styles:
+% https://de.sharelatex.com/learn/Biblatex_citation_styles
+% https://de.sharelatex.com/learn/Biblatex_bibliography_styles
+\addbibresource{zotero.bib}    % Zotero-Beispiele.bib ist die verwendete Bibtex-Datei
+% Anstatt die Bibtex-Datei selber zu erstellen, kann sie z. B. aus einer Zotero-Sammlung zu BibTeX exportiert werden.
+
+
+%% Einstellungen:
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}   % Tiefe der Gliederung im In haltsverzeichnis
+
+
+\begin{document}
+
+% evtl. Sperrvermerkseite
+\thispagestyle{empty}
+
+\noindent
+
+\section*{Blocking Note}
+This Thesis should be blocked from public use until xxxxxxxxxxxxx. 
+Publication, photocopying and viewing may be possible only with consent from the author. 
+
+
+\vspace{3cm}
+
+\noindent Dornbirn, July 2025 \hfill Viktoriia Simakova
+
+
+% Titelblatt:
+% \newpage\mbox{}\newpage
+\cleardoublepage   % force output to a right page
+\thispagestyle{empty}
+\begin{titlepage}
+  \begin{flushright}
+  \includegraphics[width=0.4\linewidth]{Abbildungen/Wort-Bild-Marke-cmyk}  % https://www.fhv.at/fh/presse/logo-bildmaterial
+  \end{flushright}
+  \begin{flushleft}
+  \section*{[Titel der Arbeit]}
+  \subsection*{[Untertitel der Arbeit]}
+  \vspace{1cm}
+
+  Master Thesis\\
+  Submitted in Fulfillment of the Degree
+  \vspace{0.5cm}
+
+  \textbf{Master of Science in Engineering (MSc)}
+
+  \vspace{1cm}
+  University of Applied Sciences Vorarlberg\newline
+
+  \vspace{0.5cm}
+
+  Submitted to\newline
+  DI Dr. techn. Sebastian Hegenbart
+
+  \vspace{0.5cm}
+
+  Handed in by\newline
+  Viktoriia Simakova\newline
+  Dornbirn, July 2025
+  \end{flushleft}
+\end{titlepage}
+
+\newpage
+\include{chapters/0-kurzreferat}
+
+\newpage
+\include{chapters/0-abstract}
+
+\cleardoublepage
+\tableofcontents
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Abbreviations and Symbols}
+\chapter*{List of Abbreviations and Symbols}
+\begin{acronym}[ML]
+ \acro{AUC}[AUC]{Area under the curve}
+ \acro{AI}[AI]{Artificial Intelligence}
+ \acro{Bi-LSTM}[Bi-LSTM]{Bidirectional Long Short-Term Memory}
+ \acro{CV}[CV]{Computer Vision}
+ \acro{CNN}[CNN]{Convolutional Neural Network}
+ \acrodefplural{CNNs}[CNNs]{Convolutional Neural Networks}
+ \acro{DL}[DL]{Deep Learning}
+ \acro{DNN}[DNN]{Deconvolutional Neural Network}
+ \acro{FITB}[FITB]{Fill-in-the-Blank}
+ \acro{GAN}[GAN]{Generative Adversarial Network}
+ \acrodefplural{GANs}[GANs]{Generative Adversarial Networks}
+ \acro{GAP}[GAP]{Global Average Pooling}
+ \acro{GloVe}[GloVe]{Global Vectors for Word Representation}
+ \acro{GCN}[GCN]{Graph Convolutional Network}
+ \acro{HR}[HR]{Hit Rate}
+ \acro{HCD}[HCD]{Human-Centered Design}
+ \acro{HCC}[HCC]{Human-Centered Computing}
+ \acro{LR}[LR]{Learning Rate}
+ \acro{ML}[ML]{Machine Learning}
+ \acro{MRR}[MRR]{Mean Reciprocal Ranking}
+ \acro{MLP}[MLP]{Multi-Layer Perceptron}
+ \acrodefplural{MLPs}[MLPs]{Multi-Layer Perceptrons}
+ \acro{SCL}[SCL]{Self Supervised Contrastive Learning}
+ \acro{NC-SSL}[NC-SSL]{Non-Contrastive Self Supervised Learning}
+ \acro{RNN}[RNN]{Recurrent Neural Network}
+ \acrodefplural{RNNs}[RNNs]{Recurrent Neural Networks}
+ \acro{RN}[RN]{Relational Network}
+ \acro{ReLU}[ReLU]{Rectified Linear Unit}
+ \acro{ResNet}[ResNet]{Residual Network}
+ \acrodefplural{ResNets}[ResNets]{Residual Networks}
+ \acro{SSL}[SSL]{Self-Supervised Learning}
+ \acro{SMPL}[SMPL]{Skinned Multi-Person Linear model}
+ \acro{VSE}[VSE]{Visual Semantic Embedding}
+\end{acronym}
+
+\include{chapters/1-introduction}
+\include{chapters/2-requirements}
+\include{chapters/3-background}
+\include{chapters/4-solution}
+\include{chapters/5-implementation}
+\include{chapters/6-results}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+\printbibliography
+
+
+\chapter*{Statement of Affirmation}
+\addcontentsline{toc}{chapter}{Statement of Affirmation}
+I hereby declare that all parts of this thesis were exclusively prepared by me, without using resources other than those stated above. The thoughts taken directly or indirectly from external sources are appropriately annotated. This thesis or parts of it were not previously submitted to any other academic institution and have not yet been published.
+
+\vspace{3cm}
+\noindent
+Dornbirn, July 2025 \hfill Viktoriia Simakova
+
+\end{document}
