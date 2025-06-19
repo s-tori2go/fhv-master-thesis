@@ -2390,28 +2390,32 @@
     <bcf:citekey order="15" intorder="1">shirkhani_study_2023</bcf:citekey>
     <bcf:citekey order="16" intorder="1">brownlee_deep_2019</bcf:citekey>
     <bcf:citekey order="17" intorder="1">muller_introduction_2017</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">he_deep_2015</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">zeiler_deconvolutional_2010</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">sung_learning_2018</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">koch_siamese_2015</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">faghri_vse_2018</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">upgrad_overview_2023</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">huang_bidirectional_2015</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">goodfellow_generative_2014</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">wang_outfit_2019</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">moosaei_fashion_2020</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">liu_mgcm_2020</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">moosaei_outfitgan_2022</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">zheng_collocation_2021</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">zheng_collocation_2021</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">guan_partially_2022</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">guan_partially_2022</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">kim_self-supervised_2020</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">dong_towards_2025</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">pang_learning_2024</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">pang_learning_2024</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">vo_efficient_2023</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">vo_efficient_2023</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">oshea_introduction_2015</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">he_deep_2015</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">he_deep_2015</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">zeiler_deconvolutional_2010</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">sherstinsky_fundamentals_2018</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">huang_bidirectional_2015</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">sung_learning_2018</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">koch_siamese_2015</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">faghri_vse_2018</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">upgrad_overview_2023</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">sengar_generative_2024</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">goodfellow_generative_2014</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">wang_outfit_2019</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">moosaei_fashion_2020</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">liu_mgcm_2020</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">moosaei_outfitgan_2022</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">zheng_collocation_2021</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">zheng_collocation_2021</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">guan_partially_2022</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">guan_partially_2022</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">kim_self-supervised_2020</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">dong_towards_2025</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">pang_learning_2024</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">pang_learning_2024</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">vo_efficient_2023</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">vo_efficient_2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

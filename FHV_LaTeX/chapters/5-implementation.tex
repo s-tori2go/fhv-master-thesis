@@ -1,6 +1,21 @@
 \chapter{Implementation}
+
+The following sections detail the system architecture, technical stack and specific implementation choices.
+
 \section{System Architecture and Technical Stack}
+
 \section{Implementation of Selected Approach}
+
+The implementation follows a step-by-step procedure. Initially, fundamental features such as color harmony, balance and similarity-based scoring are prioritized before introducing more complex elements. The system is developed incrementally, starting with a basic prototype and refining it progressively based on experimental results. This iterative process is essential for building a robust and effective solution. Ultimately, the final product aims to be engaging and user-friendly, offering opportunities for personalization and interaction.
+
+Start with simpler features like color harmony and balance, which can be computed using computer vision techniques.
+- Use pre-trained models or libraries (e.g., ColorThief) to analyze color palettes.
+- Gradually incorporate more complex features as the system evolves.
+- Start with a small ensemble of two or three models (e.g., one for global features and one for local details).
+- Use late fusion (e.g., concatenating outputs) or attention mechanisms to combine features effectively.
+- Use Siamese networks or triplet loss to create an embedding space where similar outfits are closer together.
+- Incorporate additional features (e.g., color harmony, balance) into the scoring process.
+
 \section{Data Collection and Preprocessing}
 
 
@@ -12,6 +27,12 @@
 Data Collection: The first step is to gather labeled data, which typically consists of input features and their corresponding target labels. This data should be representative of the problem you want to solve.
 Data curation: The process of cleaning and organizing the collected data to ensure its quality and reliability. This step involves removing any outliers or inconsistencies, handling missing values, and transforming the data into a suitable format for training the model.
 Data Splitting: The collected data is usually divided into two subsets: the training dataset and the test data. Train the model with the training dataset, while the test data is reserved for evaluating its performance.
+
+segmentation masks and structured metadata
+
+\textbf{Textual Data.}
+
+After tokenization, the pipeline proceeds with semantic embedding extraction, transforming the processed text into vector representations. Fashion\acs{CLIP} is preferred for fashion-specific contexts, but alternatives such as \acs{CLIP}, BERT, SBERT, Sentence-T5 or \acs{GloVe} can be used. Optionally, metadata fusion can be applied by converting the attributes into descriptive prompts (e.g. “A red wool sweater with a relaxed fit”) or encoding them as key-value pairs for structured input formats.
 
 \section{AI Model Development and Training}
 

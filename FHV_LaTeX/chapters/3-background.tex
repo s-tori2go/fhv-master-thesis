@@ -58,12 +58,14 @@ In the context of this thesis, a \acs{DL} model, an algorithm that is modeled af
 \vspace{0.5cm}
 
 \textbf{\ac{CNN}.}
-Some popular \acs{DL} architectures include \acs{CNN}, which process images by applying small, learnable filters over pixel regions. These filters extract local features such as edges or textures. As the image passes through multiple convolutional layers, the network builds a hierarchical representation, with deeper layers capturing increasingly complex and abstract features useful for tasks like classification or detection.
+Some popular \acs{DL} architectures include \acs{CNN}, which process images by applying small, learnable filters over pixel regions. These filters extract local features such as edges or textures. As the image passes through multiple convolutional layers, the network builds a hierarchical representation. The deeper layers of the network are capturing increasingly complex and abstract features that are useful for tasks like classification or detection. \cite[cf.]{oshea_introduction_2015}
+
+To train a model, its parameters (weights and biases) are adjusted to reduce the loss, which measures the difference between predictions and true values. This is done using gradients, computed via backpropagation, which tells each layer how to update its parameters. In very deep networks, however, gradients can become extremely small as they are passed backward, causing earlier layers to learn very little. This is known as the vanishing gradient problem. Special architectures (e.g. \acs{ResNet}) can address this by helping gradients flow more effectively during training. \cite[cf.]{he_deep_2015} 
 
 \vspace{0.5cm}
 
 \textbf{\ac{ResNet}.}
-One of the key \acs{CNN} models in fashion is \acs{ResNet}. Its key feature is the use of \textcolor{red}{skip/residual connections} across one or more layers, which help mitigate the \textcolor{red}{vanishing gradient (incl. backpropagation)} problem in very deep networks. It uses building blocks and lets each block learn a modification (residual) to its input, rather than the desired underlying function. This allows gradients to flow backward. Therefore, this model can handle very deep networks (with over 100 layers: e.g. ResNet-50, ResNet-101, ResNet-152), making it suitable for feature extraction from complex fashion datasets where high accuracy is required. \cite[cf.]{he_deep_2015}
+One of the key \acs{CNN} models in fashion is \acs{ResNet}. Its key feature is the use of "skip/residual connections" across layers. These connections perform mappings that skip one or more layers and pass information directly to deeper layers. This network uses building blocks and lets each block learn a modification (residual) to its input, rather than the desired underlying function. Therefore, this model can handle very deep networks (with over 100 layers: e.g. ResNet-50, ResNet-101, ResNet-152), making it suitable for feature extraction from complex fashion datasets where high accuracy is required. \cite[cf.]{he_deep_2015}
 
 \vspace{0.5cm}
 
@@ -72,49 +74,49 @@ One of the key \acs{CNN} models in fashion is \acs{ResNet}. Its key feature is t
 
 \vspace{0.5cm}
 
-\textbf{\ac{RelNNs}.}
-\acs{RelNNs} addresses the task of relational reasoning. It is specifically designed to understand and compute pairwise relationships between objects or entities within data, showing how different parts of the input relate to each other. \cite[cf.]{sung_learning_2018}
-
-\vspace{0.5cm}
-
-\textbf{Siamese Network.}
-A Siamese Network (Twin Network) is a neural network architecture designed for similarity learning. Its goal is to determine how alike or different two inputs of the same modality (e.g. images) are. This network consists of a pair of neural networks that share their weights and aim at computing similarity functions. It learns to compare pairs of inputs by mapping them into a feature space where similar samples are close and dissimilar samples are far apart. This approach is powerful in fashion scenarios where the task involves verifying whether two samples belong to the same class (e.g. similar style despite differences in type or color). \cite[cf.]{koch_siamese_2015}
-
-\vspace{0.5cm}
-
-\textbf{\ac{VSE}.}
-These models map images and textual descriptions into a shared vector space. This enables cross-modal tasks such as image-text retrieval, caption generation and visual question answering. \acs{CLIP} is a specific implementation of a \acs{VSE}-like model including important advancements. Fashion\acs{CLIP} is domain-adapted version of \acs{CLIP} which is fine-tuned and tailored specifically for fashion-related tasks. \cite[cf.]{faghri_vse_2018}
-
-\vspace{0.5cm}
-
-\textbf{\ac{MLP}.}
-One of the earliest models that is often being used to produce the final prediction, a compatibility score, is \acs{MLP}. \textcolor{red}{It is a multi-layer, fully connected, feedforward neural network capable of learning complex patterns through nonlinear transformations and iterative training.} \cite[cf.]{upgrad_overview_2023}
-
-\vspace{0.5cm}
-
-\textbf{Generative AI:}
-
-\vspace{0.5cm}
-
-Generative AI is another type of \ac{DL}. It creates new content (images, videos or text) based on patterns learned from existing data.
+\textbf{\ac{RNN}.}
+A \acs{RNN} is a class of neural networks designed to process sequential data, involving temporal or ordered data (e.g. language modeling or time-series prediction). It maintains a hidden state that captures information over time. However, the network often struggles with learning long-term dependencies due to issues such as vanishing gradients. \cite[cf.]{sherstinsky_fundamentals_2018}
 
 \vspace{0.5cm}
 
 \textbf{\ac{Bi-LSTM}.}
-A \acs{Bi-LSTM} network is an advanced type of \acs{RNN} and is designed for sequence modeling tasks. It processes sequential data in both forward and backward directions and combines their outputs to capture full context at every step. This architecture is especially powerful for tasks where understanding both past and future elements in a sequence is important. \cite[cf.]{huang_bidirectional_2015}
+A \acs{Bi-LSTM} network is an advanced type of \acs{RNN} that addresses the aforementioned limitations. It processes sequential data in both forward and backward directions and combines their outputs to capture full context at every step. This architecture is especially powerful for tasks where understanding both past and future elements in a sequence is important. \cite[cf.]{huang_bidirectional_2015}
+
+\vspace{0.5cm}
+
+\textbf{\ac{RelNN}.}
+A \acs{RelNN} is designed to tackle relational reasoning tasks by explicitly modeling how objects in a set relate to one another, rather than focusing solely on their individual properties. Given a set of object representations (e.g. features extracted from image regions using a \acs{CNN}, word embeddings from a sentence using a \ac{Bi-LSTM}) the model evaluates all possible pairs using a small neural network to capture their interactions. These pairwise relations are then aggregated and passed through another network to generate the final output. The architecture's ability to model structured interactions makes it applicable to domains involving object relationships such as evaluating visual harmony in outfit composition. \cite[cf.]{sung_learning_2018}
+
+\vspace{0.5cm}
+
+\textbf{Siamese Network.}
+A Siamese (Twin) Network is a neural network architecture designed for similarity learning. Its goal is to determine how alike or different two inputs of the same modality (e.g. images) are. This network consists of a pair of neural networks that share their weights and aim at computing similarity functions. It learns to compare pairs of inputs by mapping them into a feature space where similar samples are close and dissimilar samples are far apart. This approach is powerful in fashion scenarios where the task involves verifying whether two samples belong to the same class (e.g. similar style despite differences in type or color). \cite[cf.]{koch_siamese_2015}
+
+\vspace{0.5cm}
+
+\textbf{\ac{VSE}.}
+These models enable cross-modal tasks such as image-text retrieval, caption generation or visual question answering. Their goal is to align representations across different modalities (e.g. images and textual descriptions) in a shared vector space. \acs{CLIP} is a specific implementation of a \acs{VSE}-like model including important advancements. Fashion\acs{CLIP} is domain-adapted version of \acs{CLIP} which is fine-tuned and tailored specifically for fashion-related tasks. \cite[cf.]{faghri_vse_2018}
+
+\vspace{0.5cm}
+
+\textbf{\ac{MLP}.}
+\acs{MLP} is a type of fully connected neural network composed of an input layer, one or more hidden layers with nonlinear activation functions and an output layer. While conceptually simple, \acsp{MLPs} are powerful function approximators and are commonly used in the final stages of many deep learning pipelines. In outfit recommendation or compatibility scoring tasks, \acsp{MLPs} are often employed to map high-level features that are extracted by earlier modules (e.g. \acs{CNN}, \acs{RNN}, \acs{RelNN}) into a final score representing the compatibility between items. \cite[cf.]{upgrad_overview_2023}
+
+\vspace{0.5cm}
+
+\textbf{Generative \ac{AI}.}
+Generative \ac{AI} refers to a class of \ac{DL} models that can create new content (e.g. images, videos, music, text) by learning patterns from existing data. These models typically use self-supervised, unsupervised or weakly supervised techniques to capture the underlying structure of the data, rather than relying on fully labeled datasets. Depending on the approach, they may generate content unconditionally or be conditioned on input prompts or examples. A key feature of generative models is their ability to produce diverse and often realistic outputs. \cite[cf.]{sengar_generative_2024}
 
 \vspace{0.5cm}
 
 \textbf{\ac{GAN}.}
-A \acs{GAN} is a framework where a generator and discriminator are trained in opposition. This results in a creation of highly realistic data. The process is unsupervised, game-theoretic and widely used for e.g. image synthesis, data augmentation, text-to-image generation, style transfer. \cite[cf.]{goodfellow_generative_2014}
+A \acs{GAN} is a framework where a generator and discriminator are trained in opposition. This results in a creation of highly realistic data. This process is widely used for image synthesis, data augmentation, text-to-image generation or style transfer. \cite[cf.]{goodfellow_generative_2014}
 
 \section{Previous Work and Related Research}
 
-Current section provides an overview of 10 papers that were choosen out of a total of 54 in terms of their relevance to the use case. For all selected studies, their main goal and important technical elements were summarized. \vspace{0.5cm}
+Current section provides an overview of 10 papers that were choosen out of a total of 54. The selection process prioritized articles which are published within the last six years (from 2019 to 2025), written in English and are openly accessible. The search was conducted using specific terms such as "outfit compatibility", "fashion compatibility", "fashion recommendation", "deep learning", "aesthetic recommendation", "outfit generation" as well as a mix of these keywords. The most interesting articles based on their captions, abstracts and conclusions were subsequently downloaded and further investigated  in terms of their relevance to the use case. For all selected studies, their main goal and important technical elements are summarized below.
 
-\textcolor{red}{explain the selection process?}
-\textcolor{red}{remove hyperparameters later?}
-\textcolor{red}{check if all methods / techniques are explained earlier}
+\textcolor{red}{remove hyperparameters later? check if all methods / techniques are explained earlier}
 
 \vspace{0.5cm}
 
@@ -122,7 +124,7 @@ Current section provides an overview of 10 papers that were choosen out of a tot
 
 \vspace{0.5cm}
 
-Wang et al. present a system that can predict whether a set of clothing items representing an outfit looks good and explain why it does (not). The developed network uses a \acs{CNN} (\acs{ResNet} 50) and \acs{GAP} to extract features from images of clothing items at different levels of abstraction. These features range from basic details such as color and texture (early layers) to more complex ones such as style and category (later layers). The extracted features are then used to compare each outfit item with every other outfit item in a pairwise comparison matrix. \acs{MLP} then produces a score that reflects the final overall compatibility score. Thus, both visual and textual information is integrated using \acs{VSE} which allows the model to learn a common representation between them. Gradient values generated by backpropagation are used to identify problematic pairs and to provide an explanation of why an outfit fails, pinpointing specific issues. As loss functions, the model employs binary cross-entropy and contrastive loss. The training is supervised, uses labeled data and learns with negative sampling. The prediction of compatibility is evaluated using metrics such as \acs{AUC} and \acs{FITB} accuracy. The key hyperparameters mentioned include: initial \acs{LR}: 0.01, decay factor: 0.2 every 10 epochs, \acs{CNN} depth: 4 layers, \acs{MLP} depth: 2 layers. \cite[cf.]{wang_outfit_2019}
+Wang et al. present a system that can predict whether a set of clothing items representing an outfit looks good and explain why it does (not). The developed network uses a \acs{CNN} (\acs{ResNet}-50) and \acs{GAP} to extract features from images of clothing items at different levels of abstraction. These features range from basic details such as color and texture (early layers) to more complex ones such as style and category (later layers). The extracted features are then used to compare each outfit item with every other outfit item in a pairwise comparison matrix. \acs{MLP} then produces a score that reflects the final overall compatibility score. Thus, both visual and textual information is integrated using \acs{VSE} which allows the model to learn a common representation between them. Gradient values generated by backpropagation are used to identify problematic pairs and to provide an explanation of why an outfit fails, pinpointing specific issues. As loss functions, the model employs binary cross-entropy and contrastive loss. The training is supervised. The model uses labeled data and learns with negative sampling. The prediction of compatibility is evaluated using metrics such as \acs{AUC} and \acs{FITB} accuracy. The key hyperparameters mentioned include: initial \acs{LR}: 0.01, decay factor: 0.2 every 10 epochs, \acs{CNN} depth: 4 layers, \acs{MLP} depth: 2 layers. \cite[cf.]{wang_outfit_2019}
 
 \vspace{0.5cm}
 
@@ -130,7 +132,7 @@ Wang et al. present a system that can predict whether a set of clothing items re
 
 \vspace{0.5cm}
 
-Moosaei et al. tackle the challenge of creating a system that could 1) work with any number of clothing items 2) without needing a specific order and 3) without relying on traditional labels. First, \acs{RelNNs} is used to treat each outfit as a "scene" and the items within it as "objects", thus learning how items relate to each other visually. After establishing the relationships, it combines them using \acs{MLP} to create a single score that indicates how well the outfit fits together. The authors also develop a more sophisticated version of the network that additionally incorporates textual information. DenseNet is used for visual feature extraction, one-hot encoding for textual features. The model uses cross-entropy loss. The training is supervised. The evaluation uses \acs{AUC} and \acs{FITB} accuracy. The key hyperparameters mentioned include: \acs{LR}: 0.001, batch size: 64, dropout rate: 0.35, epochs: 19, optimizer: Adam, \acs{MLP} depth: 4 layers (number of filters: 512, 512, 256, 256) + 3 layers (number of filters: 128, 128, 32). \cite[cf.]{moosaei_fashion_2020}
+Moosaei et al. tackle the challenge of creating a system that could 1) work with any number of clothing items 2) without needing a specific order and 3) without relying on traditional labels. First, \acs{RelNN} is used to treat each outfit as a "scene" and the items within it as "objects", thus learning how items relate to each other visually. After establishing the relationships, it combines them using \acs{MLP} to create a single score that indicates how well the outfit fits together. The authors also develop a more sophisticated version of the network that additionally incorporates textual information. DenseNet is used for visual feature extraction, one-hot encoding for textual features. The model uses cross-entropy loss. The training is supervised. The evaluation uses \acs{AUC} and \acs{FITB} accuracy. The key hyperparameters mentioned include: \acs{LR}: 0.001, batch size: 64, dropout rate: 0.35, epochs: 19, optimizer: Adam, \acs{MLP} depth: 4 layers (number of filters: 512, 512, 256, 256) + 3 layers (number of filters: 128, 128, 32). \cite[cf.]{moosaei_fashion_2020}
 
 \vspace{0.5cm}
 
@@ -138,7 +140,7 @@ Moosaei et al. tackle the challenge of creating a system that could 1) work with
 
 \vspace{0.5cm}
 
-Liu et al. aim not only to measure compatibility but also to generate a "compatible template" that could help in understanding why certain pairings succeed or fail. The authors trained a \acs{GAN} on a massive dataset of clothing images paired with detailed textual descriptions to create a richer understanding of clothing compatibility. The architecture integrates down-sampling, multi-modal fusion and up-sampling. Convolutional layers are used for visual encoding, TextCNN for textual. The network learns to generate preliminary visual representations (templates) of what a compatible clothing item should look like based on a given one. \acs{AUC} and \acs{MRR} are used as metrics for evaluating the model. The \acs{LR} was set to 0.0002. \cite[cf.]{liu_mgcm_2020}
+Liu et al. aim not only to measure compatibility but also to generate a "compatible template" that could help in understanding why certain pairings succeed or fail. The authors trained a \acs{GAN} on a massive dataset of clothing images paired with detailed textual descriptions to create a richer understanding of clothing compatibility. The architecture integrates downsampling, multi-modal fusion and upsampling. Convolutional layers are used for visual encoding, TextCNN for textual. The network learns to generate preliminary visual representations (templates) of what a compatible clothing item should look like based on a given one. \acs{AUC} and \acs{MRR} are used as metrics for evaluating the model. The \acs{LR} was set to 0.0002. \cite[cf.]{liu_mgcm_2020}
 
 \vspace{0.5cm}
 
@@ -146,7 +148,7 @@ Liu et al. aim not only to measure compatibility but also to generate a "compati
 
 \vspace{0.5cm}
 
-In another research, Moosaei et al. show a model used to generate compatible fashion items for an (incomplete) outfit. The developed model consists of two parts. The \acs{GAN} takes as input a partial outfit (images) along with a specified missing clothing item category (textual) and creates several potential outfit combinations. A compatibility network (\acs{CNN} + \acsp{MLPs} + \acs{RelNNs}) checks if the generated item fits well with the rest of the outfit by identifying patterns in the relationships between items. It learns what makes different clothing items match each other based on their contextual relevance (relationships) and their visual aesthetics by incorporating the initial outfit input into its training. As a loss function, the model employs cross-entropy loss among others. Training is supervised for compatibility network and min-max game for \acs{GAN}. The prediction is evaluated using inception score, multi-scale structural similarity and compatibility score. \cite[cf.]{moosaei_outfitgan_2022}
+In another research, Moosaei et al. show a model used to generate compatible fashion items for an (incomplete) outfit. The developed model consists of two parts. The \acs{GAN} takes a partial outfit (images) along with a specified missing clothing item category (textual) as input and creates several potential outfit combinations. A compatibility network (\acs{CNN} + \acsp{MLPs} + \acs{RelNN}) checks if the generated item fits well with the rest of the outfit by identifying patterns in the relationships between items. It learns what makes different clothing items match each other based on their contextual relevance (relationships) and their visual aesthetics by incorporating the initial outfit input into its training. As a loss function, the model employs cross-entropy loss among others. Training is supervised for compatibility network and minimax game for \acs{GAN}. The prediction is evaluated using inception score, multi-scale structural similarity and compatibility score. \cite[cf.]{moosaei_outfitgan_2022}
 
 \vspace{0.5cm}
 
@@ -172,7 +174,7 @@ In this paper, cross-entropy is chosen as a loss function, while the Kullback-Le
 Work done by Guan et al. presents a system designed to automate the assessment of outfit compatibility while dealing with irregular attribute labels, information loss during disentanglement and combining different levels of information. The system tackles this through a three-stage methodology: \cite[cf.]{guan_partially_2022}
 
 \begin{enumerate}
-  \item It leverages a pre-trained model (\acsp{ResNet} 18) to extract visual features from each clothing item. \acsp{MLPs} are applied to break these features down into attributes (partially supervised disentangled learning). Despite the fact that the generated attribute labels are irregular, this partially supervised approach is used to guide the attribute-level learning.
+  \item It leverages a pre-trained model (\acs{ResNet}-18) to extract visual features from each clothing item. \acsp{MLPs} are applied to break these features down into attributes (partially supervised disentangled learning). Despite the fact that the generated attribute labels are irregular, this partially supervised approach is used to guide the attribute-level learning.
   \item To prevent losing information during breakdown, the authors introduce two strategies: orthogonal residual embedding layers (layers that reintroduce missing information) and visual representation reconstruction (a \acs{DeCNN} that reconstructs the original image from fragmented attributes).
   \item The system builds a graph where nodes represent fashion items and edges represent compatibility relationships (e.g. "matches", "does not match", "requires modification"). Hierarchical \acs{GCN} is implemented to model the relationships between clothing items, considering both attribute-level and item-level compatibility. The final compatibility score is derived from the combination of both results.
 \end{enumerate}
@@ -185,7 +187,7 @@ In this paper, cross-entropy is chosen as a loss function, while orthogonal regu
 
 \vspace{0.5cm}
 
-Kim et al. implement a model that can learn from unlabeled data using \acs{SCL} and suggest items that complement each other based on shared color palettes and textures. On the one hand, the model learns to predict the distribution of colors present in images and to recognize color patterns. On the other hand, it learns to identify and recognize different textures (such as stripes, polka dots, etc.). Additionally, in order to filter out irrelevant information (e.g. shape), the model focuses on smaller, independent image patches and learns to identify the types of colors and textures present within these patches. The architecture consists of \acs{CNN} (\acs{ResNet} 50) and separate projection heads for sub-tasks. Contrastive loss (for shapeless local patch discrimination, texture discrimination) is chosen as a loss function, while the Kullback-Leibler divergence (for RGB histograms) and L1 regularization are used as regularization terms. The prediction is evaluated using \acs{AUC}, \acs{FITB} accuracy, recall@K. The key hyperparameters mentioned include: \acs{LR}: 0.00005, optimizer: Adam, activation function: \acs{ReLU}, epochs: 150, heads depth: two fully connected layers. \cite[cf.]{kim_self-supervised_2020}
+Kim et al. implement a model that can learn from unlabeled data using \acs{SCL} and suggest items that complement each other based on shared color palettes and textures. On the one hand, the model learns to predict the distribution of colors present in images and to recognize color patterns. On the other hand, it learns to identify and recognize different textures (such as stripes, polka dots, etc.). Additionally, in order to filter out irrelevant information (e.g. shape), the model focuses on smaller, independent image patches and learns to identify the types of colors and textures present within these patches. The architecture consists of \acs{CNN} (\acs{ResNet}-50) and separate projection heads for sub-tasks. Contrastive loss (for shapeless local patch discrimination, texture discrimination) is chosen as a loss function, while the Kullback-Leibler divergence (for RGB histograms) and L1 regularization are used as regularization terms. The prediction is evaluated using \acs{AUC}, \acs{FITB} accuracy, recall@K. The key hyperparameters mentioned include: \acs{LR}: 0.00005, optimizer: Adam, activation function: \acs{ReLU}, epochs: 150, heads depth: two fully connected layers. \cite[cf.]{kim_self-supervised_2020}
 
 \vspace{0.5cm}
 
@@ -227,7 +229,7 @@ In their work, Vo et al. create a system that can tell if different clothing ite
 
 \begin{enumerate}
   \item \acs{Bi-LSTM} analyzes the entire outfit as a sequence (like words in a sentence) and learns how different clothing items relate to each other.
-  \item \acs{ResNet} 50 extracts visual features from clothing images and \acs{VSE} connects them to textual descriptions (one-hot encoded) to understand visual style and matching.
+  \item \acs{ResNet}-50 extracts visual features from clothing images and \acs{VSE} connects them to textual descriptions (one-hot encoded) to understand visual style and matching.
   \item The last part focuses specifically on recognizing if an outfit is suitable for a particular occasion. It uses an auxiliary classifier with global average pooling, fully connected layers and softmax to classify outfits based on occasions.
 \end{enumerate}
 

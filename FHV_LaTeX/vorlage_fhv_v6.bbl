@@ -412,6 +412,54 @@
       \field{title}{Introduction to machine learning with {Python}: a guide for data scientists}
       \field{year}{2017}
     \endentry
+    \entry{oshea_introduction_2015}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=f92af5765968c6de4c1e42d397224c9c}{%
+           family={O'Shea},
+           familyi={O\bibinitperiod},
+           given={Keiron},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b5da23fc726b6d32ee9a3247fa6663fc}{%
+           family={Nash},
+           familyi={N\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{fullhash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{fullhashraw}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{bibnamehash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{authorbibnamehash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{authornamehash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{authorfullhash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{authorfullhashraw}{1e0b31097f3d41e61dd78e46b147642a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The field of machine learning has taken a dramatic twist in recent times, with the rise of the Artificial Neural Network (ANN). These biologically inspired computational models are able to far exceed the performance of previous forms of artificial intelligence in common machine learning tasks. One of the most impressive forms of ANN architecture is that of the Convolutional Neural Network (CNN). CNNs are primarily used to solve difficult image-driven pattern recognition tasks and with their precise yet simple architecture, offers a simplified method of getting started with ANNs. This document provides a brief introduction to CNNs, discussing recently published papers and newly formed techniques in developing these brilliantly fantastic image recognition models. This introduction assumes you are familiar with the fundamentals of ANNs and machine learning.}
+      \field{month}{12}
+      \field{note}{arXiv:1511.08458}
+      \field{title}{An {Introduction} to {Convolutional} {Neural} {Networks}}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1511.08458
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1511.08458
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1511.08458
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing}
+    \endentry
     \entry{he_deep_2015}{misc}{}{}
       \name{author}{4}{}{%
         {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
@@ -501,8 +549,8 @@
       \strng{authornamehash}{1cb5cdec86b64ca3a86c570ae15b8712}
       \strng{authorfullhash}{4709d85a5b59a0fb82c6f82be3749865}
       \strng{authorfullhashraw}{4709d85a5b59a0fb82c6f82be3749865}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2010 {IEEE} {Computer} {Society} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}}
@@ -514,6 +562,97 @@
       \verb 10.1109/CVPR.2010.5539957
       \endverb
       \keyw{Computer architecture,Convolution,Decoding,Feature extraction,Filters,Image edge detection,Image representation,Image restoration,Object recognition,Robustness}
+    \endentry
+    \entry{sherstinsky_fundamentals_2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f46a859f5b9b1e6c5f5bdc8e43a3c09}{%
+           family={Sherstinsky},
+           familyi={S\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f46a859f5b9b1e6c5f5bdc8e43a3c09}
+      \strng{fullhash}{6f46a859f5b9b1e6c5f5bdc8e43a3c09}
+      \strng{fullhashraw}{6f46a859f5b9b1e6c5f5bdc8e43a3c09}
+      \strng{bibnamehash}{6f46a859f5b9b1e6c5f5bdc8e43a3c09}
+      \strng{authorbibnamehash}{6f46a859f5b9b1e6c5f5bdc8e43a3c09}
+      \strng{authornamehash}{6f46a859f5b9b1e6c5f5bdc8e43a3c09}
+      \strng{authorfullhash}{6f46a859f5b9b1e6c5f5bdc8e43a3c09}
+      \strng{authorfullhashraw}{6f46a859f5b9b1e6c5f5bdc8e43a3c09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Because of their effectiveness in broad practical applications, LSTM networks have received a wealth of coverage in scientific journals, technical blogs, and implementation guides. However, in most articles, the inference formulas for the LSTM network and its parent, RNN, are stated axiomatically, while the training formulas are omitted altogether. In addition, the technique of "unrolling" an RNN is routinely presented without justification throughout the literature. The goal of this paper is to explain the essential RNN and LSTM fundamentals in a single document. Drawing from concepts in signal processing, we formally derive the canonical RNN formulation from differential equations. We then propose and prove a precise statement, which yields the RNN unrolling technique. We also review the difficulties with training the standard RNN and address them by transforming the RNN into the "Vanilla LSTM" network through a series of logical arguments. We provide all equations pertaining to the LSTM system together with detailed descriptions of its constituent entities. Albeit unconventional, our choice of notation and the method for presenting the LSTM system emphasizes ease of understanding. As part of the analysis, we identify new opportunities to enrich the LSTM system and incorporate these extensions into the Vanilla LSTM network, producing the most general LSTM variant to date. The target reader has already been exposed to RNNs and LSTM networks through numerous available resources and is open to an alternative pedagogical approach. A Machine Learning practitioner seeking guidance for implementing our new augmented LSTM model in software for experimentation and research will find the insights and derivations in this tutorial valuable as well.}
+      \field{title}{Fundamentals of {Recurrent} {Neural} {Network} ({RNN}) and {Long} {Short}-{Term} {Memory} ({LSTM}) {Network}}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1808.03314
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1808.03314
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1808.03314
+      \endverb
+      \keyw{FOS: Computer and information sciences,Machine Learning (cs.LG),Machine Learning (stat.ML)}
+    \endentry
+    \entry{huang_bidirectional_2015}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=6e8d947dd72de23b8500095b595e1e99}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zhiheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b1dd1a9ff59cc6aeba590fc68bcc39cf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f5a13dcc79cf0ffe67e50260860f709a}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{55dd401111d193d12ecab38cc0f79b04}
+      \strng{fullhash}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{fullhashraw}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{bibnamehash}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{authorbibnamehash}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{authornamehash}{55dd401111d193d12ecab38cc0f79b04}
+      \strng{authorfullhash}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{authorfullhashraw}{2f75424f8afa62a5d143e289d08f1665}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we propose a variety of Long Short-Term Memory (LSTM) based models for sequence tagging. These models include LSTM networks, bidirectional LSTM (BI-LSTM) networks, LSTM with a Conditional Random Field (CRF) layer (LSTM-CRF) and bidirectional LSTM with a CRF layer (BI-LSTM-CRF). Our work is the first to apply a bidirectional LSTM CRF (denoted as BI-LSTM-CRF) model to NLP benchmark sequence tagging data sets. We show that the BI-LSTM-CRF model can efficiently use both past and future input features thanks to a bidirectional LSTM component. It can also use sentence level tag information thanks to a CRF layer. The BI-LSTM-CRF model can produce state of the art (or close to) accuracy on POS, chunking and NER data sets. In addition, it is robust and has less dependence on word embedding as compared to previous observations.}
+      \field{month}{8}
+      \field{note}{arXiv:1508.01991}
+      \field{title}{Bidirectional {LSTM}-{CRF} {Models} for {Sequence} {Tagging}}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1508.01991
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1508.01991
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1508.01991
+      \endverb
+      \keyw{Computer Science - Computation and Language}
     \endentry
     \entry{sung_learning_2018}{misc}{}{}
       \name{author}{6}{}{%
@@ -709,58 +848,64 @@
       \verb https://www.upgrad.com/blog/multilayer-perceptron-mlp-in-machine-learning/
       \endverb
     \endentry
-    \entry{huang_bidirectional_2015}{misc}{}{}
-      \name{author}{3}{}{%
-        {{hash=6e8d947dd72de23b8500095b595e1e99}{%
-           family={Huang},
+    \entry{sengar_generative_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3fc029ce802bf308f604d69367c9c5d5}{%
+           family={Sengar},
+           familyi={S\bibinitperiod},
+           given={Sandeep\bibnamedelima Singh},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=52c78ccf2d7dcdf1ce2e0b966925f504}{%
+           family={Hasan},
            familyi={H\bibinitperiod},
-           given={Zhiheng},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=b1dd1a9ff59cc6aeba590fc68bcc39cf}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
-        {{hash=f5a13dcc79cf0ffe67e50260860f709a}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Kai},
-           giveni={K\bibinitperiod}}}%
+           given={Affan\bibnamedelima Bin},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=42bfba992cc41fac7579730168fa6433}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7203ea934537e99c0ce0d498bc9028bd}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={Fiona},
+           giveni={F\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {arXiv}%
+      \list{language}{1}{%
+        {en}%
       }
-      \strng{namehash}{55dd401111d193d12ecab38cc0f79b04}
-      \strng{fullhash}{2f75424f8afa62a5d143e289d08f1665}
-      \strng{fullhashraw}{2f75424f8afa62a5d143e289d08f1665}
-      \strng{bibnamehash}{2f75424f8afa62a5d143e289d08f1665}
-      \strng{authorbibnamehash}{2f75424f8afa62a5d143e289d08f1665}
-      \strng{authornamehash}{55dd401111d193d12ecab38cc0f79b04}
-      \strng{authorfullhash}{2f75424f8afa62a5d143e289d08f1665}
-      \strng{authorfullhashraw}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{namehash}{e44a020d8bd105a6cd212fb3884de6be}
+      \strng{fullhash}{9cf8b0859a5f7648927ce5a897cffbf3}
+      \strng{fullhashraw}{9cf8b0859a5f7648927ce5a897cffbf3}
+      \strng{bibnamehash}{9cf8b0859a5f7648927ce5a897cffbf3}
+      \strng{authorbibnamehash}{9cf8b0859a5f7648927ce5a897cffbf3}
+      \strng{authornamehash}{e44a020d8bd105a6cd212fb3884de6be}
+      \strng{authorfullhash}{9cf8b0859a5f7648927ce5a897cffbf3}
+      \strng{authorfullhashraw}{9cf8b0859a5f7648927ce5a897cffbf3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In this paper, we propose a variety of Long Short-Term Memory (LSTM) based models for sequence tagging. These models include LSTM networks, bidirectional LSTM (BI-LSTM) networks, LSTM with a Conditional Random Field (CRF) layer (LSTM-CRF) and bidirectional LSTM with a CRF layer (BI-LSTM-CRF). Our work is the first to apply a bidirectional LSTM CRF (denoted as BI-LSTM-CRF) model to NLP benchmark sequence tagging data sets. We show that the BI-LSTM-CRF model can efficiently use both past and future input features thanks to a bidirectional LSTM component. It can also use sentence level tag information thanks to a CRF layer. The BI-LSTM-CRF model can produce state of the art (or close to) accuracy on POS, chunking and NER data sets. In addition, it is robust and has less dependence on word embedding as compared to previous observations.}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract In recent years, the study of artificial intelligence (AI) has undergone a paradigm shift. This has been propelled by the groundbreaking capabilities of generative models both in supervised and unsupervised learning scenarios. Generative AI has shown state-of-the-art performance in solving perplexing real-world conundrums in fields such as image translation, medical diagnostics, textual imagery fusion, natural language processing, and beyond. This paper documents the systematic review and analysis of recent advancements and techniques in Generative AI with a detailed discussion of their applications including application-specific models. Indeed, the major impact that generative AI has made to date, has been in language generation with the development of large language models, in the field of image translation and several other interdisciplinary applications of generative AI. Moreover, the primary contribution of this paper lies in its coherent synthesis of the latest advancements in these areas, seamlessly weaving together contemporary breakthroughs in the field. Particularly, how it shares an exploration of the future trajectory for generative AI. In conclusion, the paper ends with a discussion of Responsible AI principles, and the necessary ethical considerations for the sustainability and growth of these generative models.}
+      \field{issn}{1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
       \field{month}{8}
-      \field{note}{arXiv:1508.01991}
-      \field{title}{Bidirectional {LSTM}-{CRF} {Models} for {Sequence} {Tagging}}
-      \field{urlday}{25}
-      \field{urlmonth}{5}
+      \field{shorttitle}{Generative artificial intelligence}
+      \field{title}{Generative artificial intelligence: a systematic review and applications}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
       \field{urlyear}{2025}
-      \field{year}{2015}
+      \field{year}{2024}
       \field{urldateera}{ce}
       \verb{doi}
-      \verb 10.48550/arXiv.1508.01991
+      \verb 10.1007/s11042-024-20016-1
       \endverb
       \verb{urlraw}
-      \verb http://arxiv.org/abs/1508.01991
+      \verb https://link.springer.com/10.1007/s11042-024-20016-1
       \endverb
       \verb{url}
-      \verb http://arxiv.org/abs/1508.01991
+      \verb https://link.springer.com/10.1007/s11042-024-20016-1
       \endverb
-      \keyw{Computer Science - Computation and Language}
     \endentry
     \entry{goodfellow_generative_2014}{misc}{}{}
       \name{author}{8}{}{%
@@ -871,8 +1016,8 @@
       \strng{authornamehash}{aeaae95a3851acdb0d7c761eee05b973}
       \strng{authorfullhash}{e8b1c78025e3c044fcbf94258833c59e}
       \strng{authorfullhashraw}{e8b1c78025e3c044fcbf94258833c59e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Existing works about fashion outfit compatibility focus on predicting the overall compatibility of a set of fashion items with their information from different modalities. However, there are few works explore how to explain the prediction, which limits the persuasiveness and effectiveness of the model. In this work, we propose an approach to not only predict but also diagnose the outfit compatibility. We introduce an end-to-end framework for this goal, which features for: (1) The overall compatibility is learned from all type-specified pairwise similarities between items, and the backpropagation gradients are used to diagnose the incompatible factors. (2) We leverage the hierarchy of CNN and compare the features at different layers to take into account the compatibilities of different aspects from the low level (such as color, texture) to the high level (such as style). To support the proposed method, we build a new type-specified outfit dataset named Polyvore-T based on Polyvore dataset. We compare our method with the prior state-of-the-art in two tasks: outfit compatibility prediction and fill-in-the-blank. Experiments show that our approach has advantages in both prediction performance and diagnosis ability.}
@@ -923,8 +1068,8 @@
       \strng{authorfullhash}{300884009b80e9ec1e521d9f7555c39b}
       \strng{authorfullhashraw}{300884009b80e9ec1e521d9f7555c39b}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Fashion is an inherently visual concept and computer vision and artificial intelligence (AI) are playing an increasingly important role in shaping the future of this domain. Many research has been done on recommending fashion products based on the learned user preferences. However, in addition to recommending single items, AI can also help users create stylish outfits from items they already have, or purchase additional items that go well with their current wardrobe. Compatibility is the key factor in creating stylish outfits from single items. Previous studies have mostly focused on modeling pair-wise compatibility. There are a few approaches that consider an entire outfit, but these approaches have limitations such as requiring rich semantic information, category labels, and fixed order of items. Thus, they fail to effectively determine compatibility when such information is not available. In this work, we adopt a Relation Network (RN) to develop new compatibility learning models, Fashion RN and FashionRN-VSE, that addresses the limitations of existing approaches. FashionRN learns the compatibility of an entire outfit, with an arbitrary number of items, in an arbitrary order. We evaluated our model using a large dataset of 49,740 outfits that we collected from Polyvore website. Quantitatively, our experimental results demonstrate state of the art performance compared with alternative methods in the literature in both compatibility prediction and fill-in-the-blank test. Qualitatively, we also show that the item embedding learned by FashionRN indicate the compatibility among fashion items.}
@@ -979,8 +1124,8 @@
       \strng{authornamehash}{d58a4fb705ad8754c90542d9be676f11}
       \strng{authorfullhash}{30586e70089abe97893bb79f3357f471}
       \strng{authorfullhashraw}{30586e70089abe97893bb79f3357f471}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{09252312}
@@ -1054,8 +1199,8 @@
       \strng{authorfullhash}{9d623d9f73289b503e6a6e90c9b7cdad}
       \strng{authorfullhashraw}{9d623d9f73289b503e6a6e90c9b7cdad}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{booktitle}{2022 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})}
@@ -1379,8 +1524,8 @@
       \strng{authornamehash}{632fd5a33b24afc04d9a58422b33efc0}
       \strng{authorfullhash}{34924bd1b5c3e69a7272fc9f6e2502e6}
       \strng{authorfullhashraw}{34924bd1b5c3e69a7272fc9f6e2502e6}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2024 {IEEE}/{CVF} {Winter} {Conference} on {Applications} of {Computer} {Vision} ({WACV})}
@@ -1438,8 +1583,8 @@
       \strng{authornamehash}{dce576cda471ad7ef3f9092f2ff15dc3}
       \strng{authorfullhash}{1c767b374100f258258a20ec5795853d}
       \strng{authorfullhashraw}{1c767b374100f258258a20ec5795853d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Nowadays, in a communicating society, fashion is an integral part of a human life, and it is more comfortable and confident when people dress well. Outfit compatibility is not only a combination of different items but also regarding various aspects, such as style, user preferences, and specific occasions. Most of the existing works lead to address the outfit compatibility concerning only style or user preferences, and have no regard for occasions. In this paper, we propose an efficient method for both outfit compatibility and the fill-in-the-blank tasks according to specific occasions. To this end, we utilized an auxiliary classification branch to learn the significantly important features regarding specific occasions. Besides, a sequence to sequence approach is also applied to learn the relationship of different items along with a visual semantic space, which is able to learn the connection between visual features and their semantic presentation. To demonstrate the effectiveness of the proposed method, we conduct experiments on our newly collected Shoplook-Occasion dataset. The experimental results indicate that our proposed method improved the AUC metric from 0.02 to 0.15\% and from 0.5 to 4\% on accuracy, compared with other approaches for outfit compatibility problem conditioning on specific occasions.}
