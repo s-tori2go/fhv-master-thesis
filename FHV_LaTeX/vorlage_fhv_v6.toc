@@ -1,9 +1,9 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {0.1}Kurzreferat}{4}{section.0.1}%
 \contentsline {subsection}{\numberline {0.1.1}[Deutscher Titel Ihrer Arbeit]}{4}{subsection.0.1.1}%
-\contentsline {chapter}{List of Figures}{9}{section*.8}%
-\contentsline {chapter}{List of Tables}{10}{section*.10}%
-\contentsline {chapter}{List of Abbreviations and Symbols}{11}{section*.12}%
+\contentsline {chapter}{List of Figures}{9}{section*.9}%
+\contentsline {chapter}{List of Tables}{10}{section*.12}%
+\contentsline {chapter}{List of Abbreviations and Symbols}{11}{section*.14}%
 \contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{13}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Objectives and Problem Statement}{14}{section.1.2}%
@@ -13,20 +13,33 @@
 \contentsline {section}{\numberline {2.2}Challenges and Constraints}{17}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Background and Literature Review}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Relevant Techniques in Outfit Matching and Compatibility Evaluation}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Previous Work and Related Research}{21}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Proposed Solutions}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Overview of Potential Approaches}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Comparative Analysis of Solution Approaches}{33}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Justification for Selected Approach}{33}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Implementation}{34}{chapter.5}%
-\contentsline {section}{\numberline {5.1}System Architecture and Technical Stack}{34}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Implementation of Selected Approach}{34}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Data Collection and Preprocessing}{34}{section.5.3}%
-\contentsline {section}{\numberline {5.4}AI Model Development and Training}{34}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Evaluation and Testing}{36}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Experimental Setup and Test Scenarios}{36}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Performance Metrics and Evaluation Criteria}{36}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Results and Observations}{36}{section.6.3}%
-\contentsline {chapter}{References}{37}{section*.91}%
-\contentsline {chapter}{Statement of Affirmation}{40}{chapter*.93}%
+\contentsline {subsection}{\numberline {3.1.1}Techniques within Fashion Theory}{20}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Techniques within \acs {ML}}{21}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Previous Work and Related Research}{23}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Proposed Solutions}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Overarching Framework}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Individual Components}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Data Collection Module (1a)}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Outfit Generation and Visualisation Module (1b)}{32}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Data Preparation Module (2)}{33}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Feature Extraction and Processing Module (3)}{34}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Aesthetic Scoring Module (4)}{35}{subsection.4.2.5}%
+\contentsline {chapter}{\numberline {5}Implementation}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}System Architecture and Technical Stack}{38}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Implementation of Selected Approach}{38}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Data Collection and Preprocessing}{38}{section.5.3}%
+\contentsline {section}{\numberline {5.4}AI Model Development and Training}{38}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Evaluation and Testing}{40}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Experimental Setup and Test Scenarios}{40}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Performance Metrics and Evaluation Criteria}{40}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Results and Observations}{40}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Discussion and Impact Analysis}{41}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Interpretation of Results}{41}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Limitations and Challenges}{41}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Ethical Considerations and Sustainability Implications}{41}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{42}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Summary of Findings}{42}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Future Research Directions}{42}{section.8.2}%
+\contentsline {chapter}{References}{43}{section*.96}%
+\contentsline {chapter}{Statement of Affirmation}{46}{chapter*.98}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

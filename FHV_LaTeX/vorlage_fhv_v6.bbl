@@ -412,6 +412,434 @@
       \field{title}{Introduction to machine learning with {Python}: a guide for data scientists}
       \field{year}{2017}
     \endentry
+    \entry{he_deep_2015}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5e72bc22dbcf0984c6d113d280e36990}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiangyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{fullhashraw}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{bibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authorbibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authornamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authorfullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authorfullhashraw}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57\% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28\% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC \& COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.}
+      \field{month}{12}
+      \field{note}{arXiv:1512.03385}
+      \field{title}{Deep {Residual} {Learning} for {Image} {Recognition}}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1512.03385
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1512.03385
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1512.03385
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{zeiler_deconvolutional_2010}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=90d345b65e166a9cfc0c6ddec4ddc3d6}{%
+           family={Zeiler},
+           familyi={Z\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6e4c62612fa904e2c1c6c00006ccc142}{%
+           family={Krishnan},
+           familyi={K\bibinitperiod},
+           given={Dilip},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c57b78bacc3da92f8aa3623167ea5de}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Graham\bibnamedelima W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a6784304d1cc890b2cb6c6c7f2f3fd76}{%
+           family={Fergus},
+           familyi={F\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cb5cdec86b64ca3a86c570ae15b8712}
+      \strng{fullhash}{4709d85a5b59a0fb82c6f82be3749865}
+      \strng{fullhashraw}{4709d85a5b59a0fb82c6f82be3749865}
+      \strng{bibnamehash}{4709d85a5b59a0fb82c6f82be3749865}
+      \strng{authorbibnamehash}{4709d85a5b59a0fb82c6f82be3749865}
+      \strng{authornamehash}{1cb5cdec86b64ca3a86c570ae15b8712}
+      \strng{authorfullhash}{4709d85a5b59a0fb82c6f82be3749865}
+      \strng{authorfullhashraw}{4709d85a5b59a0fb82c6f82be3749865}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 {IEEE} {Computer} {Society} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}}
+      \field{title}{Deconvolutional networks}
+      \field{year}{2010}
+      \field{pages}{2528\bibrangedash 2535}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CVPR.2010.5539957
+      \endverb
+      \keyw{Computer architecture,Convolution,Decoding,Feature extraction,Filters,Image edge detection,Image representation,Image restoration,Object recognition,Robustness}
+    \endentry
+    \entry{sung_learning_2018}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=dbe76b500b71e2176fd1b050b0b31525}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Flood},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7e9b1d0ad76c6c1d68c2b6e5d6f0daad}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yongxin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=32a08717e0d6dcde59bc98b96800ed6c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=20de9f859b0b9bfb12fa85f3513c2fc1}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3269ee96fb4b61a52f4c01b02fc0751c}{%
+           family={Torr},
+           familyi={T\bibinitperiod},
+           given={Philip\bibnamedelimb H.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=925f77faddc6019beb9b26a56fe09e0c}{%
+           family={Hospedales},
+           familyi={H\bibinitperiod},
+           given={Timothy\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{b871ffbb7d32a2c18628fb0eb24b8d99}
+      \strng{fullhash}{ba4550d63f9597aa43bdaf9524ea7483}
+      \strng{fullhashraw}{ba4550d63f9597aa43bdaf9524ea7483}
+      \strng{bibnamehash}{ba4550d63f9597aa43bdaf9524ea7483}
+      \strng{authorbibnamehash}{ba4550d63f9597aa43bdaf9524ea7483}
+      \strng{authornamehash}{b871ffbb7d32a2c18628fb0eb24b8d99}
+      \strng{authorfullhash}{ba4550d63f9597aa43bdaf9524ea7483}
+      \strng{authorfullhashraw}{ba4550d63f9597aa43bdaf9524ea7483}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present a conceptually simple, flexible, and general framework for few-shot learning, where a classifier must learn to recognise new classes given only few examples from each. Our method, called the Relation Network (RN), is trained end-to-end from scratch. During meta-learning, it learns to learn a deep distance metric to compare a small number of images within episodes, each of which is designed to simulate the few-shot setting. Once trained, a RN is able to classify images of new classes by computing relation scores between query images and the few examples of each new class without further updating the network. Besides providing improved performance on few-shot learning, our framework is easily extended to zero-shot learning. Extensive experiments on five benchmarks demonstrate that our simple approach provides a unified and effective approach for both of these two tasks.}
+      \field{month}{3}
+      \field{note}{arXiv:1711.06025}
+      \field{shorttitle}{Learning to {Compare}}
+      \field{title}{Learning to {Compare}: {Relation} {Network} for {Few}-{Shot} {Learning}}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1711.06025
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1711.06025
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1711.06025
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{koch_siamese_2015}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=03f9adefbe3b9c96c1156db76c3d4735}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=77a44166b8233ae29b20f292779447e0}{%
+           family={Zemel},
+           familyi={Z\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bd2be300d445e9f6db7808f9533e66cb}{%
+           family={Salakhutdinov},
+           familyi={S\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9f5214c5a6ab621374b9925be6e50b4}
+      \strng{fullhash}{c2939b4abb7681b07a46b9a9208ffeff}
+      \strng{fullhashraw}{c2939b4abb7681b07a46b9a9208ffeff}
+      \strng{bibnamehash}{c2939b4abb7681b07a46b9a9208ffeff}
+      \strng{authorbibnamehash}{c2939b4abb7681b07a46b9a9208ffeff}
+      \strng{authornamehash}{e9f5214c5a6ab621374b9925be6e50b4}
+      \strng{authorfullhash}{c2939b4abb7681b07a46b9a9208ffeff}
+      \strng{authorfullhashraw}{c2939b4abb7681b07a46b9a9208ffeff}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Siamese {Neural} {Networks} for {One}-shot {Image} {Recognition}}
+      \field{year}{2015}
+      \keyw{neural-networks one-shot-learning}
+    \endentry
+    \entry{faghri_vse_2018}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=f995df3c4b0dbce2134083ec2730e43f}{%
+           family={Faghri},
+           familyi={F\bibinitperiod},
+           given={Fartash},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5573293f17e1f12b10be0e811918a6b3}{%
+           family={Fleet},
+           familyi={F\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ce51427604561924b91aa544c9c1b2a}{%
+           family={Kiros},
+           familyi={K\bibinitperiod},
+           given={Jamie\bibnamedelima Ryan},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=132467c4a712be4725c988c89c68a30e}{%
+           family={Fidler},
+           familyi={F\bibinitperiod},
+           given={Sanja},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{68824a3baec918d54c08715838f6572c}
+      \strng{fullhash}{c336c377a0e3b7c7ca692944d76d25bb}
+      \strng{fullhashraw}{c336c377a0e3b7c7ca692944d76d25bb}
+      \strng{bibnamehash}{c336c377a0e3b7c7ca692944d76d25bb}
+      \strng{authorbibnamehash}{c336c377a0e3b7c7ca692944d76d25bb}
+      \strng{authornamehash}{68824a3baec918d54c08715838f6572c}
+      \strng{authorfullhash}{c336c377a0e3b7c7ca692944d76d25bb}
+      \strng{authorfullhashraw}{c336c377a0e3b7c7ca692944d76d25bb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present a new technique for learning visual-semantic embeddings for cross-modal retrieval. Inspired by hard negative mining, the use of hard negatives in structured prediction, and ranking loss functions, we introduce a simple change to common loss functions used for multi-modal embeddings. That, combined with fine-tuning and use of augmented data, yields significant gains in retrieval performance. We showcase our approach, VSE++, on MS-COCO and Flickr30K datasets, using ablation studies and comparisons with existing methods. On MS-COCO our approach outperforms state-of-the-art methods by 8.8\% in caption retrieval and 11.3\% in image retrieval (at R@1).}
+      \field{month}{7}
+      \field{note}{arXiv:1707.05612}
+      \field{shorttitle}{{VSE}++}
+      \field{title}{{VSE}++: {Improving} {Visual}-{Semantic} {Embeddings} with {Hard} {Negatives}}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1707.05612
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1707.05612
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1707.05612
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
+    \endentry
+    \entry{upgrad_overview_2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e838fc87225663430ccbe4d5767c8ebe}{%
+           family={{upGrad}},
+           familyi={u\bibinitperiod}}}%
+      }
+      \strng{namehash}{e838fc87225663430ccbe4d5767c8ebe}
+      \strng{fullhash}{e838fc87225663430ccbe4d5767c8ebe}
+      \strng{fullhashraw}{e838fc87225663430ccbe4d5767c8ebe}
+      \strng{bibnamehash}{e838fc87225663430ccbe4d5767c8ebe}
+      \strng{authorbibnamehash}{e838fc87225663430ccbe4d5767c8ebe}
+      \strng{authornamehash}{e838fc87225663430ccbe4d5767c8ebe}
+      \strng{authorfullhash}{e838fc87225663430ccbe4d5767c8ebe}
+      \strng{authorfullhashraw}{e838fc87225663430ccbe4d5767c8ebe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{An overview on multilayer perceptron ({MLP}) in machine learning}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.upgrad.com/blog/multilayer-perceptron-mlp-in-machine-learning/
+      \endverb
+      \verb{url}
+      \verb https://www.upgrad.com/blog/multilayer-perceptron-mlp-in-machine-learning/
+      \endverb
+    \endentry
+    \entry{huang_bidirectional_2015}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=6e8d947dd72de23b8500095b595e1e99}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zhiheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b1dd1a9ff59cc6aeba590fc68bcc39cf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f5a13dcc79cf0ffe67e50260860f709a}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{55dd401111d193d12ecab38cc0f79b04}
+      \strng{fullhash}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{fullhashraw}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{bibnamehash}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{authorbibnamehash}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{authornamehash}{55dd401111d193d12ecab38cc0f79b04}
+      \strng{authorfullhash}{2f75424f8afa62a5d143e289d08f1665}
+      \strng{authorfullhashraw}{2f75424f8afa62a5d143e289d08f1665}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we propose a variety of Long Short-Term Memory (LSTM) based models for sequence tagging. These models include LSTM networks, bidirectional LSTM (BI-LSTM) networks, LSTM with a Conditional Random Field (CRF) layer (LSTM-CRF) and bidirectional LSTM with a CRF layer (BI-LSTM-CRF). Our work is the first to apply a bidirectional LSTM CRF (denoted as BI-LSTM-CRF) model to NLP benchmark sequence tagging data sets. We show that the BI-LSTM-CRF model can efficiently use both past and future input features thanks to a bidirectional LSTM component. It can also use sentence level tag information thanks to a CRF layer. The BI-LSTM-CRF model can produce state of the art (or close to) accuracy on POS, chunking and NER data sets. In addition, it is robust and has less dependence on word embedding as compared to previous observations.}
+      \field{month}{8}
+      \field{note}{arXiv:1508.01991}
+      \field{title}{Bidirectional {LSTM}-{CRF} {Models} for {Sequence} {Tagging}}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1508.01991
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1508.01991
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1508.01991
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{goodfellow_generative_2014}{misc}{}{}
+      \name{author}{8}{}{%
+        {{hash=d4f74ef4c79f3bb1e51e378184d8850e}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a341d25f80a8118cdbb90b272adc8b4f}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9e80f4779b032f68a6106e1424345450}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=743dd6cdaa6639320289d219d351d7b7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e8151f1b8f85a048cacb34f374ec922b}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
+           family={Ozair},
+           familyi={O\bibinitperiod},
+           given={Sherjil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{fullhash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{fullhashraw}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{bibnamehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{authorbibnamehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{authornamehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{authorfullhash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{authorfullhashraw}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.}
+      \field{month}{6}
+      \field{note}{arXiv:1406.2661}
+      \field{title}{Generative {Adversarial} {Networks}}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1406.2661
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1406.2661
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1406.2661
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
     \entry{wang_outfit_2019}{article}{}{}
       \name{author}{4}{}{%
         {{hash=03d3e23852937fa39b0e34246c4ecd1d}{%
@@ -443,8 +871,8 @@
       \strng{authornamehash}{aeaae95a3851acdb0d7c761eee05b973}
       \strng{authorfullhash}{e8b1c78025e3c044fcbf94258833c59e}
       \strng{authorfullhashraw}{e8b1c78025e3c044fcbf94258833c59e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Existing works about fashion outfit compatibility focus on predicting the overall compatibility of a set of fashion items with their information from different modalities. However, there are few works explore how to explain the prediction, which limits the persuasiveness and effectiveness of the model. In this work, we propose an approach to not only predict but also diagnose the outfit compatibility. We introduce an end-to-end framework for this goal, which features for: (1) The overall compatibility is learned from all type-specified pairwise similarities between items, and the backpropagation gradients are used to diagnose the incompatible factors. (2) We leverage the hierarchy of CNN and compare the features at different layers to take into account the compatibilities of different aspects from the low level (such as color, texture) to the high level (such as style). To support the proposed method, we build a new type-specified outfit dataset named Polyvore-T based on Polyvore dataset. We compare our method with the prior state-of-the-art in two tasks: outfit compatibility prediction and fill-in-the-blank. Experiments show that our approach has advantages in both prediction performance and diagnosis ability.}
@@ -495,8 +923,8 @@
       \strng{authorfullhash}{300884009b80e9ec1e521d9f7555c39b}
       \strng{authorfullhashraw}{300884009b80e9ec1e521d9f7555c39b}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Fashion is an inherently visual concept and computer vision and artificial intelligence (AI) are playing an increasingly important role in shaping the future of this domain. Many research has been done on recommending fashion products based on the learned user preferences. However, in addition to recommending single items, AI can also help users create stylish outfits from items they already have, or purchase additional items that go well with their current wardrobe. Compatibility is the key factor in creating stylish outfits from single items. Previous studies have mostly focused on modeling pair-wise compatibility. There are a few approaches that consider an entire outfit, but these approaches have limitations such as requiring rich semantic information, category labels, and fixed order of items. Thus, they fail to effectively determine compatibility when such information is not available. In this work, we adopt a Relation Network (RN) to develop new compatibility learning models, Fashion RN and FashionRN-VSE, that addresses the limitations of existing approaches. FashionRN learns the compatibility of an entire outfit, with an arbitrary number of items, in an arbitrary order. We evaluated our model using a large dataset of 49,740 outfits that we collected from Polyvore website. Quantitatively, our experimental results demonstrate state of the art performance compared with alternative methods in the literature in both compatibility prediction and fill-in-the-blank test. Qualitatively, we also show that the item embedding learned by FashionRN indicate the compatibility among fashion items.}
@@ -702,8 +1130,8 @@
       \strng{authornamehash}{43946971ae5dd10b36138fa1c5d98fee}
       \strng{authorfullhash}{b8506956a8eee77c2fa27c42cbe5a02d}
       \strng{authorfullhashraw}{b8506956a8eee77c2fa27c42cbe5a02d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{booktitle}{Proceedings of the 29th {ACM} {International} {Conference} on {Multimedia}}
@@ -774,8 +1202,8 @@
       \strng{authornamehash}{e7c00edf256fdbb55f4a0bf061428566}
       \strng{authorfullhash}{619a8ae699135b84c30509d7a749d06f}
       \strng{authorfullhashraw}{619a8ae699135b84c30509d7a749d06f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1057-7149, 1941-0042}
@@ -843,8 +1271,8 @@
       \strng{authornamehash}{6a19d2f9cfa31659b48d3d0cc2afd36c}
       \strng{authorfullhash}{45d6e225339d17b3371838b365325edc}
       \strng{authorfullhashraw}{45d6e225339d17b3371838b365325edc}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Many self-supervised learning (SSL) methods have been successful in learning semantically meaningful visual representations by solving pretext tasks. However, prior work in SSL focuses on tasks like object recognition or detection, which aim to learn object shapes and assume that the features should be invariant to concepts like colors and textures. Thus, these SSL methods perform poorly on downstream tasks where these concepts provide critical information. In this paper, we present an SSL framework that enables us to learn color and texture-aware features without requiring any labels during training. Our approach consists of three self-supervised tasks designed to capture different concepts that are neglected in prior work that we can select from depending on the needs of our downstream tasks. Our tasks include learning to predict color histograms and discriminate shapeless local patches and textures from each instance. We evaluate our approach on fashion compatibility using Polyvore Outfits and In-Shop Clothing Retrieval using Deepfashion, improving upon prior SSL methods by 9.5-16\%, and even outperforming some supervised approaches on Polyvore Outfits despite using no labels. We also show that our approach can be used for transfer learning, demonstrating that we can train on one dataset while achieving high performance on a different dataset.}
@@ -896,8 +1324,8 @@
       \strng{authornamehash}{5a3f102601e74a93458fee9497d56c49}
       \strng{authorfullhash}{22b35a16ac9e3e984946da61b5324f55}
       \strng{authorfullhashraw}{22b35a16ac9e3e984946da61b5324f55}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Collocated clothing synthesis (CCS) has emerged as a pivotal topic in fashion technology, primarily concerned with the generation of a clothing item that harmoniously matches a given item. However, previous investigations have relied on using paired outfits, such as a pair of matching upper and lower clothing, to train a generative model for achieving this task. This reliance on the expertise of fashion professionals in the construction of such paired outfits has engendered a laborious and time-intensive process. In this paper, we introduce a new self-driven framework, named style- and texture-guided generative network (ST-Net), to synthesize collocated clothing without the necessity for paired outfits, leveraging self-supervised learning. ST-Net is designed to extrapolate fashion compatibility rules from the style and texture attributes of clothing, using a generative adversarial network. To facilitate the training and evaluation of our model, we have constructed a large-scale dataset specifically tailored for unsupervised CCS. Extensive experiments substantiate that our proposed method outperforms the state-of-the-art baselines in terms of both visual authenticity and fashion compatibility.}
@@ -951,8 +1379,8 @@
       \strng{authornamehash}{632fd5a33b24afc04d9a58422b33efc0}
       \strng{authorfullhash}{34924bd1b5c3e69a7272fc9f6e2502e6}
       \strng{authorfullhashraw}{34924bd1b5c3e69a7272fc9f6e2502e6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2024 {IEEE}/{CVF} {Winter} {Conference} on {Applications} of {Computer} {Vision} ({WACV})}
