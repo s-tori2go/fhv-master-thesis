@@ -1,7 +1,7 @@
 **/.DS_Store
 
 # ignore big files
-./models/sam_vit_h.pth
+models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
